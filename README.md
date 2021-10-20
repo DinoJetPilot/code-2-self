@@ -1,3 +1,3 @@
-# Blog Informtion 
+# Notes
 
-This can be where ideas are stored for a reference/tutorial blog.
+This repository is for web development references.
