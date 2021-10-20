@@ -1,2 +1,3 @@
-# Heading 
-This is regular text, I assume?
+# Blog Informtion 
+
+This can be where ideas are stored for a reference/tutorial blog.
