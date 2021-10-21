@@ -11,7 +11,7 @@ This repository is for web development references & notes.
 ###HTML
 - [ ] Fundamentals - p, h1-6, html, body
 - [ ] Semantic markup - section, main, etc.
-- [ ] Entity codes, <pre> (preformatted text) and reserved words
+- [ ] Entity codes, pre (preformatted text) and reserved words
 - [ ] Forms/form data
 - [ ] Tables/table data - tr, td, th, colspan, rowspan, etc.
 
