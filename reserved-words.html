@@ -1,0 +1,91 @@
+<html>
+    
+    <head>
+    </head>
+    
+<body>
+
+<h1>Reserved Words, Characters &amp; Symbols</h1>
+
+<div>
+HTML code characters:
+
+<code><table>
+<tr>
+<td>code</td>
+<td>explanation</td>
+</tr>
+<tr><td>&lt;</td>
+<td>opening HTML tag</td>
+</tr>
+<tr><td>&gt;</td>
+<td>closing HTML tag</td>
+</tr>
+<tr><td>&amp;</td>
+<td>used for entity codes</td>
+</tr><tr>
+<td>&quot; &quot;</td>
+<td>used for the value of a certain attribute</td>
+</tr>
+<table></code>
+</div>
+
+<div>
+    <p>An entity is interpreted by HTML to display a certain character or symbol. It begins with <code>&amp;</code> and ends with <code>;</code> (with either caracters or numbers in the middle.
+    <p>The <code class="code-input">&lt;code&gt;</code> HTML element is intended for inline code. Usually parts of code without needing line breaks.</p>
+    <p>The <code class="code-input">&lt;pre&gt;</code> HTML element is displayed as monospaced, preformatted text and retains line specing and breaks.</p>
+</div>
+
+<!-- only <code> example -->
+<div class="code-input">
+<pre>
+<code>
+&lt;code&gt;
+    Monospaced text, but no extra           line           spacing           and 
+       no line 
+          breaks.
+&lt;/code&gt;
+</code>
+<pre>
+</div>
+
+<div class="code-output">
+<code>
+&lt;code&gt;
+    Monospaced text, but no extra           line           spacing           and 
+       no line 
+          breaks.
+&lt;/code&gt;
+</code>
+</div>
+
+<!-- both <pre> and <code> example -->
+<div class="code-input">
+<pre><code>
+&lt;pre&gt;
+  &lt;code&gt; 
+    Preformatted, 
+    monospaced text with extra           line           spacing           and 
+       line
+          breaks.
+  &lt;/code&gt;
+&lt;/pre&gt;
+</code></pre>
+</div>
+</div>
+
+<div class="code-output">
+<pre><code>
+&lt;pre&gt;
+  &lt;code&gt; 
+    Preformatted, 
+    monospacedtext with extra           line           spacing           and 
+       line
+          breaks.
+  &lt;/code&gt;
+&lt;/pre&gt;
+</code></pre>
+</div>
+
+</body>
+</html>
