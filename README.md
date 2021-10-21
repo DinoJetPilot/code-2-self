@@ -1,4 +1,4 @@
-# Blog Notes
+# Notes
 
 This repository is for web development references and notes.
 
