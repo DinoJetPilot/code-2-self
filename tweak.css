@@ -12,7 +12,7 @@ table {
 }
 
 .table-ex {
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 th {
@@ -26,8 +26,13 @@ tr, td {
 
 code {
     border-radius: 0.4em;
-    padding: 2px 6px;
+    padding: 2px 4px;
     margin: 0.2em 0.5em;
+}
+
+div.c-content {
+    display: flex;
+
 }
 
 div.code-input, div.code-output {
