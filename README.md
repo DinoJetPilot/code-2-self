@@ -2,7 +2,7 @@
 This repository is for web development references & notes. List of possible tasks/topics below.
 
 ------------
-###GENERAL
+### GENERAL
 - [ ] Formatting of HTML vs CSS vs JavaScript
 - [ ] Absolute vs relative sizes - px, rem, em, %, etc.
 
