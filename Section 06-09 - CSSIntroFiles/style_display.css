@@ -1,0 +1,33 @@
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* width is ignored for inline elements past its content area */
+    width: 500px;
+    height: 100px;
+    /* padding and margin only affect the inline elements (horizontal), even if the element extends vertical. */
+    padding: 50px;
+    margin: 50px;
+}
+
+h1 {
+    background-color: palegreen;
+    border: 1px solid black;
+    /* width and height are respected for block level elements */
+    width: 300px;
+    height: 100px; 
+    padding: 50px;
+    margin: 50px;
+    /* setting none makes the element not display on the webpage (it's still there in the markup, ust won't show up in the browser */
+    /* display: none; */
+}
+
+div {
+    /* inline-block treats the element as inline, but allows to change the width, height, margin and padding as if a block level element */ 
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border: 1px solid black;
+    margin: 10px;
+
+}

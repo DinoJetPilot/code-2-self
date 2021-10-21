@@ -1,0 +1,27 @@
+h4 {
+    color: goldenrod;
+}
+
+h2 {
+    color: rgb(150, 50, 200);
+}
+
+button {
+    color: #FA0202;
+    background-color: lightcyan;
+}
+
+p {
+    color: #009900;
+}
+
+.fancy {
+    color: hsla(115, 100%, 50%, .3);
+    background-color: gray;
+}
+
+body 
+{
+    background-color: #000; 
+    /* Doubles in the R, the G, or the B channel can be shortned. Black is #000000 but can be typed as #000. So, #FF22EE can be #F2E. It has to be all doubles though.*/
+}

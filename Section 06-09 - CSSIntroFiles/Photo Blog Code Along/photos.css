@@ -1,0 +1,39 @@
+body {
+    background: #b4eaff;
+    color: #04441f;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid #04441f;
+    padding: 0.5em 0 0.5em 0;
+    text-transform: uppercase;
+    width: 23%;
+    margin-left: calc(10%/6);
+    margin-right: calc(10%/6);
+}
+
+img {
+    filter: grayscale(1);
+}
+
+section {
+    width: 90%;
+    height: 80%;
+}
+
+div {
+    border: 2px solid #4e6967;
+}
+
+.picBox {
+    background: blue;
+    display: inline-block;
+    margin: calc(10%/6);
+    width: 25%;
+    height: 25%;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+}

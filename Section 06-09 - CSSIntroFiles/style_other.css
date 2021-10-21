@@ -1,0 +1,22 @@
+section { 
+    width: 500px;
+    height: 500px;
+    background-color: #663399;
+    /* to use the alpha channel for hex colors, add two digits following the color code (from 00 to FF, which is like the 0 to 1 in rgba). If you do "FF" then it usually gets removed because you don't need it by default. (Still easier to see in rgba, but can be done here)*/
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+/* The alpha channel only affects the color transperency for that element, but the opacity affects transperency for the element and any descendant elements. */
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.25;
+}
+
