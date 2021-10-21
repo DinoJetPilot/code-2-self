@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 0.5em 0.7em;
+}
+
+table {
+    border: 1px solid rgb(0, 63, 92);
+    background-color: rgb(127, 196, 228);
+}
+
+.table-ex {
+    margin: 0 auto;
+}
+
+th {
+    color: rgb(127, 196, 228);
+    background-color: rgb(0, 63, 92);    
+}
+
+tr, td {
+    padding: 5px 10px;
+}
+
+code {
+    border-radius: 0.4em;
+    padding: 2px 6px;
+    margin: 0.2em 0.5em;
+}
+
+div.code-input, div.code-output {
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+.code-input {
+    color:rgb(150, 225, 150);
+    border: 1px solid rgb(5, 5, 5);
+    background-color: rgb(10, 15, 10);
+}
+
+.code-output {
+    color:rgb(10, 15, 10);
+    border: 1px solid rgb(5, 5, 5);
+    background-color: rgb(150, 225, 150);
+}

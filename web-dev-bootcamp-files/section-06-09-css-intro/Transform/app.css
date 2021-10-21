@@ -1,0 +1,72 @@
+h2 {
+    background-color: #2a9d8f;
+    border: 2px solid #264653;
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 150px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px auto;
+    /* "auto" is what automatically centers the block-level element in its container */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h2:nth-of-type(2n) {
+    background-color: #e9c46a;
+}
+h2:nth-of-type(3n) {
+    background-color: #f4a261;
+}
+h2:nth-of-type(4n) {
+    background-color: #e76f51;
+}
+
+/* This selects the first <section>, FIRST <h2> to transform */
+section:first-of-type h2:nth-of-type(1) {
+    /* transform-origin: bottom right; */
+    transform: rotate(45deg);
+}
+
+/* This selects the first <section>, SECOND <h2> to transform */
+section:first-of-type h2:nth-of-type(2) {
+    /* Scales element by a factor of the value below */
+    transform: scale(0.6);
+}
+
+section:first-of-type h2:nth-of-type(3) {
+    transform: translateX(100px);
+}
+
+section:first-of-type h2:nth-of-type(4) {
+    transform: translate(-100px, 50px);
+}
+
+/* This selects the SECOND <section>, FIRST <h2> to transform */
+section:nth-of-type(2) h2:nth-of-type(1) {
+    transform: skew(30deg);
+}
+
+section:nth-of-type(2) h2:nth-of-type(2) {
+    /* Skews the X then the Y values */
+    transform: skew(10deg, 5deg);
+}
+
+section:nth-of-type(2) h2:nth-of-type(3) {
+    /* Multiple values in the same transform */
+    transform: rotate(-20deg) scale(1.2);
+}
+
+section:nth-of-type(2) h2:nth-of-type(4) {
+    /* Multiple values in the same transform */
+    transform: translateX(-300px) rotate(180deg) scaleY(0.8);
+}
+
+section:nth-of-type(2) {
+    transform: scale(0.5);
+}
+
+section:nth-of-type(1):hover {
+    transition: transform 1.5s cubic-bezier(1, 0, 0, 1);
+    transform: translateX(-300px);
+}
