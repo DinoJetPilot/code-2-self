@@ -1,6 +1,5 @@
 # Notes
 
-This repository is for web development references and notes.
-
+This repository is for web development references & notes.
 
 ------------
