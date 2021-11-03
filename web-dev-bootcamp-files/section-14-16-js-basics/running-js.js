@@ -51,3 +51,34 @@ if (rndDay === 0) {
 } else {
     console.log("Well, at least it's not Monday...")
 }
+
+
+// Using a switch statement
+switch (rndDay) {
+    case 1:
+        console.log("Monday");
+        // break creates a breakpoint in the code, otherwise if case 2 is active, it will also run case 3, case 4, etc. until the end of the rule set.
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    // Default is if all other values don't run (similar to "else" in if-statements)
+    default:
+        console.log("Not a valid day!");
+
+}
