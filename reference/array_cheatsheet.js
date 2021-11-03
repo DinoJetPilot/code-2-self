@@ -19,11 +19,11 @@ colors.unshift('purple');
 //shift() - removes and returns first element in an array
 colors.shift();
 
-const colors2 = ["green", "blue", "indigo", "violet"];
+const colors2 = ["green", "blue", "violet"];
 // concat(value) - merges arrays
 const colorsRainbow = colors.concat(colors2);
 
-// join - creates a string from an array (by concatenating all the elements in the array)
+// join(value) - creates a string from an array (by concatenating all the elements in the array)
 colors.join(); // returns "red,orange,yellow"
 colors.join(''); // returns "redorangeyellow"
 colors.join('-'); // returns "red-orange-yellow"
@@ -33,16 +33,28 @@ colors.join(', '); // returns "red, orange, yellow"
 colors.includes('red'); //returns true, in this case
 colors.includes('Red'); // returns false, in this case
 
-// indexOf - (like string.indexOf) returns index location of the FIRST element in that array
+// indexOf(value) - (like string.indexOf) returns index location of the FIRST element in that array
 colors.indexOf('red'); //returns 0
 colors.indexOf('orange'); //returns 1
 colors.indexOf('yellow'); //returns 2
 colors.includes('RED'); // returns -1
 colors.includes('aqua'); // returns -1
 
-// reverse - reverses an array (destructive method; rewrites/replaces the original array)
+// reverse() - reverses an array (destructive method; rewrites/replaces the original array)
 colorsRainbow.reverse();
 
-// slice - copies a portion of an array
-// splice - removes/replaces elements
-// sort - sorts an array
+// slice(start, end) - copies a portion of an array
+colorsRainbow.slice(); // returns a copy of the full array
+colorsRainbow.slice(2); // returns a copy of index[2] until the end of the array
+colorsRainbow.slice(2, 5); // returns a copy of index[2] to index[4] (it STOPS at index[5])
+colorsRainbow.slice(-2); // returns a copy of the last two index elements in the array
+
+// splice(indexNumber, deleteCount, valueToInsert) - removes/replaces elements in an array
+colorsRainbow.splice(5, 0, 'indigo'); // cuts array at index[5] and adds indigo without deleting anything
+colorsRainbow.splice(5, 1); // cuts array at index[5] AND deletes 1 index (violet), returns value that was cut
+colorsRainbow.splice(5, 1, 'indigo'); // cuts array at index[5] and adds indigo AND deletes 1 index (violet)
+
+// sort() - sorts an array (default way converts everything to strings and compares UTF-16 values to order them)
+// Eventually it's better to use a function to pass as an argument to better sort than the default way
+const numbers = [100, 99, 1, 32, -15, 2500];
+numbers.sort(); // returns array as: [-15, 0, 1, 100, 2500, 32, 99] or based on the INITIAL value, not the numerical value
