@@ -1,16 +1,18 @@
-// let count = 0;
-// while (count < 10) {
-//     count++;
-//     console.log(count)
-// }
+// Code below is better to be used as a for loop, but this accomplishes the same thing less efficiently.
+let count = 0;
+while (count < 10) {
+    count++;
+    console.log(count)
+}
+
 
 // const SECRET = "BabyHippo";
-
 // let guess = prompt("enter the secret code...");
 // while (guess !== SECRET) {
 //     guess = prompt("enter the secret code...");
 // }
 // console.log("CONGRATS YOU GOT THE SECRET!!!")
+
 
 // let input = prompt("Hey, say something!")
 // while (true) {

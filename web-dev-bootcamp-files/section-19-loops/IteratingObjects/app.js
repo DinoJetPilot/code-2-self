@@ -1,3 +1,4 @@
+// Object literals (the example below) are not iterable objects using the "for...of" loop.
 const testScores = {
     keenan: 80,
     damon: 67,
@@ -17,6 +18,17 @@ const testScores = {
 for (let person in testScores) {
     console.log(`${person} scored ${testScores[person]}`);
 }
+
+// Object.keys(testScores) 
+// Returns the keys as an array (i.e. ['keenan', 'damon', 'kim', ...])
+
+// Object.values(testScore)
+// Returns the values as an array (i.e. [80, 67, 89, ...])
+
+// Object.entries(testScores)
+// Returns each key and value as an array, within an array. For example:
+// [["keenan", 80], ["damon", 67], ["kim", 89] ...]
+
 
 // ==============================================
 // Using Object methods to iterate

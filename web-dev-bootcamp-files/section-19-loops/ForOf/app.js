@@ -4,6 +4,7 @@ const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer', 'g
 //     console.log(`Visit reddit.com/r/${subreddits[i]}`)
 // }
 
+// Instead of using the above "for" loop, use the below "for...of" loop by assigning a symantic variable (usually "i" or "j") that is stored as it uses each index value (without having to call the index like "subreddits[i]")
 for (let subreddit of subreddits) {
     console.log(`Visit reddit.com/r/${subreddit}`)
 }
@@ -29,7 +30,8 @@ for (let subreddit of subreddits) {
 //     }
 // }
 
-// for (let char of "hello world") {
-//     console.log(char)
-// }
+// It can also be done with any other iterable item (like sting characters), but you can see on MDN's web docs.
+for (let char of "hello world") {
+    console.log(char)
+}
 
