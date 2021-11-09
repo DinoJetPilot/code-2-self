@@ -91,9 +91,9 @@ const add = (x, y) => {
 // You can utilize implicit return with arrow functions only, by replacing the braces with parentheses. This automatically returns the code within it.
 //
 // Implicit returns only work if the function has one value to return.
-const rollDie = () => (
+const rollDie = () => {
     return Math.floor(Math.random() * 10) + 1;
-    )
+}
 
 // Another example of a function condensed into and arrow function with implicit return.
 const isEven = function (num) {
