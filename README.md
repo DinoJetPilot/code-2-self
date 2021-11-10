@@ -24,6 +24,7 @@ This repository is for web development references & notes. List of possible task
 - [ ] Flex box - justify-content/items, align, flex-wrap/direction, etc.
 
 ### JavaScript
+- [ ] try/catch functions
 - [ ] array methods
 - [ ] callback functions
 - [ ] arrow functions
