@@ -21,19 +21,48 @@ numbers.forEach(print = (el) => { if (el % 2 === 0) { console.log(el) } });
 const movies = [
     {
         title: 'Amadeus',
-        score: 99
+        score: 99,
+        year: 1984
+    },
+    {
+        title: 'Sharknado',
+        score: 35,
+        year: 2013
+    },
+    {
+        title: '13 Going on 30',
+        score: 70,
+        year: 2004
+    },
+    {
+        title: 'Waterworld',
+        score: 62,
+        year: 1995
     },
     {
         title: 'Stand By Me',
-        score: 85
+        score: 85,
+        year: 1986
+    },
+    {
+        title: 'Jingle All the Way',
+        score: 71,
+        year: 1996
     },
     {
         title: 'Parasite',
-        score: 95
+        score: 95,
+        year: 2019
     },
     {
         title: 'Alien',
-        score: 90
+        score: 90,
+        year: 1979
+    },
+    {
+        title: 'Notting Hill',
+        score: 77,
+        year: 1999
     }
 ]
 
@@ -111,3 +140,47 @@ const moviesData = movies.map(mov =>
     `${mov.title} - ${mov.score}/100`);
 
 // ======================================================
+// "setTimeout" requires passing through two arguments - first, the callback function, second, the delay (in miliseconds)
+
+console.log("This prints out first");
+
+setTimeout(() => { console.log("This took 3,000 ms before pinting in the console...") }, 3000);
+
+console.log("Then this prints out BEFORE the setTimeout function runs (but is AFTER tht code).");
+
+// ======================================================
+// "setInterval" requires passing through two arguments - first, the callback function, second, the repeat interval (in miliseconds)
+
+setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1) }, 2000);
+// Above interval should repeat indefinitely every 2 seconds, but to stop use the "clearInterval()" with a value, byt saving it to a variable.
+
+const intId = setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1) }, 2000);
+
+clearInterval(intId);
+
+
+// ======================================================
+// The "filter" method creates an array with all elements that pass a test implemented by a callback functionthat returns a Boolean.
+
+const oddNums = numbers.filter(n => {
+    return n % 2 !== 0
+});
+
+
+// const goodMovies = movies.filter(mov => {
+//     return mov.score > 80
+// });
+
+// Can condense above code more using more of the arrow functions.
+// const goodMovies = movies.filter(m => m.score > 80);
+// const goodTitles = goodMovies.map(m => m.title);
+
+// The two above lines can further be combined as:
+movies.filter(m => m.score > 80).map(m => m.title);
+// ^ this can also look like v
+movies
+    .filter(m => m.score > 80)
+    .map(m => m.title);
+
+const badMovies = movies.filter(m => m.score < 70);
+const recentMovies = movies.filter(m => m.year > 1999);
