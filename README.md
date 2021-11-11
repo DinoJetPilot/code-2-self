@@ -1,5 +1,5 @@
 # Notes
-This repository is for web development references & notes. List of possible tasks/topics below.
+This repository is for web development references & notes. List of possible tasks/topics to study and practice.
 
 ------------
 ### GENERAL
