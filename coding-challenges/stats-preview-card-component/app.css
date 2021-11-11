@@ -1,0 +1,112 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* 
+@media queries:
+- Mobile: 375px
+- Desktop: 1440px
+
+### Primary
+- Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+
+### Neutral
+- White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+*/
+
+body {   
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 0.03em;
+    line-height: 1.5rem;
+}
+
+main {
+    margin: 150px auto;
+    max-width: 1000px;
+    max-height: 600px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.imgContainer {
+    width: 100%;
+    /* max-width: 500px; */
+    background-image: linear-gradient(hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)), url("images/image-header-desktop.jpg");
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.6em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0.6em;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    color: hsl(0, 0%, 100%);
+    font-size: 2.1em;
+    line-height: 2.5rem;
+}
+
+.mainContent {
+    background-color: hsl(244, 38%, 16%);
+    padding: 55px 95px 55px 65px;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0;
+    /* margin: 10px auto; */
+}
+
+.highlightColor {
+    color: hsl(277, 64%, 61%);
+}
+
+.boldStats {
+    font-weight: 700;  
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1em;
+}
+
+#container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+#container div {
+    text-align: left;
+    flex-basis: 80px;
+    /* padding: 0 15px 0 0; */
+    margin: 15px 35px 15px 0;
+}
+
+.statBoxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stats {  
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.15em;
+}
+
+.lowerCase {
+    text-transform: lowercase;
+}
+
+
+
