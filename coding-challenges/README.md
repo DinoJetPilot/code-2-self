@@ -2,7 +2,7 @@
 A repository for various coding challenges.
 
 #### [Frontend Mentor](www.frontendmentor.io):
-* [Stats preview card component](https://github.com/DinoJetPilot/challenges/tree/main/stats-preview-card-component) | HTML, CSS ([challenge source link](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62))
+* [Stats preview card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component) | HTML, CSS ([challenge source link](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62))
 
 #### [CodePen](codepen.io):
 * [Tribute page](https://codepen.io/jmillet/pen/GREbZMr) | HTML, CSS
