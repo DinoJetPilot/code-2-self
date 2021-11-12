@@ -26,6 +26,7 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Fixes](#fix
   - background-color: #aa5cdb;
   - background-blend-mode: multiply;
 - Why default font size seems to be off?
+- Consider using background colors with variables.
 - Resizing padding/margin attribution.
 - Revise screenshot.
 
