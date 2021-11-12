@@ -14,10 +14,10 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Fixes](#fix
 
 ## Solution
 
-- Solution URL: [https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/stats-preview-card-component/](https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/stats-preview-card-component/)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
 - Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/)
 
-![image](https://user-images.githubusercontent.com/92833227/141404307-0de45432-6684-4985-a1f7-c1ae94139546.png) 
+![image](https://user-images.githubusercontent.com/92833227/141492163-3561e8a0-eb07-4348-a8b9-108a525a4f57.png)
 
 ## Fixes
 
