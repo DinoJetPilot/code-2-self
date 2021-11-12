@@ -2,10 +2,10 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |  [Links](#links)  |  [Author](#author)
+Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |  [Links](#links)  |  [Author](#author)
 ##
 
-## My Process
+## Process
 
 - Semantic HTML5 markup
 - CSS custom properties
