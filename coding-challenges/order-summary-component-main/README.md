@@ -10,8 +10,7 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- Flexbox / CSS Grid
 - Mobile-first workflow
 
 ## Solution
