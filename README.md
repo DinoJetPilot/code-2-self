@@ -6,7 +6,7 @@ Like "note to self" but punnier...
 - [Reference](https://github.com/DinoJetPilot/code-2-self/tree/main/reference): Reference notes and shorthand/cheatsheet documents.
 - [Web Dev Files](https://github.com/DinoJetPilot/code-2-self/tree/main/web-dev-bootcamp-files): Repo for personal practice for coding learning.
 
-##
+## -
 ### Random List of Ideas/Topics:
 ##### GENERAL
 - Formatting of HTML vs CSS vs JavaScript
