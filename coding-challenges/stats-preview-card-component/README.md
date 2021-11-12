@@ -23,6 +23,9 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](
 ## Questions
 
 - How do you make the image look like a purple overlay?
+  - background-image: url(the div's url goes here), (color code goes here);
+  - background-color: #aa5cdb;
+  - background-blend-mode: multiply;
 - Why did default font size seem to be off?
 
 ## Links
