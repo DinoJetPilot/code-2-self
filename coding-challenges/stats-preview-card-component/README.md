@@ -33,7 +33,7 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Fixes](#fix
 ## Links
 
 - [Flexbox Malven](https://flexbox.malven.co/) - Nice simple visual reminder of some Flexbox properties.
-- [hCSS Blend(https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) - Changing the coloring of the image with blend modes.
+- [CSS Blend/Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) - Changing the coloring of the image with blend modes.
 - [CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using variables for CSS properties.
 
 ## Author
