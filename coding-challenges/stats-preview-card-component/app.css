@@ -170,7 +170,9 @@ h2 {
         max-width: 500px;
         height: 385px; 
         background: center / cover url("images/image-header-desktop.jpg");
-        background-image: linear-gradient(hsla(277, 64%, 61%, 0.4), hsla(277, 64%, 61%, 0.4)), url("images/image-header-mobile.jpg");
+        background-color: hsla(277, 64%, 61%, 0.7);
+        background-blend-mode: multiply;
+/*         background-image: linear-gradient(hsla(277, 64%, 61%, 0.4), hsla(277, 64%, 61%, 0.4)), url("images/image-header-mobile.jpg"); */
         border-top-left-radius: 0;
         border-top-right-radius: 0.65em;
         border-bottom-left-radius: 0;
