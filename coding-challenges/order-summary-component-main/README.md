@@ -27,7 +27,7 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](
 
 ## Links
 
-- [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using variables for CSS properties.
+- []()
 
 
 ## Author
