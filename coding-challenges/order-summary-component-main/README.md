@@ -3,7 +3,7 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](#questions)  |  [Links](#links)  |  [Author](#author)
+Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |  [Links](#links)  |  [Author](#author)
 ##
 
 ## My Process
@@ -21,7 +21,7 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](
 
 ![image]()
 
-## Questions
+## Fixes
 
 - ?
 
