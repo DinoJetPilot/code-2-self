@@ -2,13 +2,8 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [My process](#my-process)
-- [Solution](#solution)
-- [Questions](#questions)
-- [Links](#links)
-- [Author](#author)
+Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](#questions)  |  [Links](#links)  |  [Author](#author)
+##
 
 ## My Process
 
@@ -23,6 +18,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Solution URL: [https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/stats-preview-card-component/](https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/stats-preview-card-component/)
 - Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/)
 
+![image](https://user-images.githubusercontent.com/92833227/141404307-0de45432-6684-4985-a1f7-c1ae94139546.png) ![image](https://user-images.githubusercontent.com/92833227/141404426-863b888d-af54-4dad-b06a-8c71f4b66dc3.png)
 
 ## Questions
 
