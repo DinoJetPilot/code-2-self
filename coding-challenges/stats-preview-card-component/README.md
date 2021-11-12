@@ -31,6 +31,7 @@ Navigation: [My process](#my-process)  |  [Solution](#solution)  |  [Questions](
 ## Links
 
 - [https://flexbox.malven.co/](https://flexbox.malven.co/) - Nice simple visual reminder of some Flexbox properties.
+- [https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) - Trying to answer my question about the coloring of the image.
 
 
 ## Author
