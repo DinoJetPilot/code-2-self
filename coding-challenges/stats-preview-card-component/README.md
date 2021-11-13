@@ -21,14 +21,14 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Fixes
 
-[-] Purple overlay instead of light faded purple?
+- [x] Purple overlay instead of light faded purple?
   - background-image: url(the div's url goes here), (color code goes here);
   - background-color: #aa5cdb;
   - background-blend-mode: soft-light;
-[ ] Why default font size seems to be off?
-[ ] Consider using background colors with variables.
-[-] Revised padding/margin attribution.
-[-] Revise screenshot.
+- [ ] Why default font size seems to be off?
+- [ ] Consider using background colors with variables.
+- [x] Revised padding/margin attribution.
+- [x] Revise screenshot.
 
 ## Links
 
