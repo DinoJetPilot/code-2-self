@@ -9,7 +9,7 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox / CSS Grid
+- Flexbox
 - Mobile-first workflow
 
 ## Solution
@@ -17,7 +17,7 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 - Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
 - Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/)
 
-![image](https://user-images.githubusercontent.com/92833227/141492163-3561e8a0-eb07-4348-a8b9-108a525a4f57.png)
+![image](https://user-images.githubusercontent.com/92833227/141602785-18fb6bfc-6e0a-4477-ad21-f4226521c666.png)
 
 ## Fixes
 
