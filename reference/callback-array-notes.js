@@ -1,4 +1,4 @@
-// ======================================================
+// =========================================
 // The "forEach" code was used more frequently before "for..each" loop was introduced. It works the same by getting each element from an array.
 //
 
@@ -78,7 +78,7 @@ movies.forEach((mov) => {
 
 
 
-// ======================================================
+// =========================================
 // "Map" function: Creates a new array with the results of calling a callback on every element in the array, generating a new array that can be saved to a variable.
 //
 // Usually a good method for if you need to create a new array with some or all of the data from an original source.
@@ -93,7 +93,7 @@ const movieTitles = movies.map(function (mov) {
 })
 
 
-// ======================================================
+// =========================================
 // Arrow functions: a way to simplify syntax for simple function expressions.
 //
 
@@ -116,7 +116,7 @@ const add = (x, y) => {
 //     return Math.floor(Math.random() * 10) + 1;
 // }
 
-// ======================================================
+// =========================================
 // You can utilize implicit return with arrow functions only, by replacing the braces with parentheses. This automatically returns the code within it.
 //
 // Implicit returns only work if the function has one value to return.
@@ -139,7 +139,7 @@ const isEven = num => num % 2 === 0;
 const moviesData = movies.map(mov =>
     `${mov.title} - ${mov.score}/100`);
 
-// ======================================================
+// =========================================
 // "setTimeout" requires passing through two arguments - first, the callback function, second, the delay (in miliseconds)
 
 console.log("This prints out first");
@@ -148,7 +148,7 @@ setTimeout(() => { console.log("This took 3,000 ms before pinting in the console
 
 console.log("Then this prints out BEFORE the setTimeout function runs (but is AFTER tht code).");
 
-// ======================================================
+// =========================================
 // "setInterval" requires passing through two arguments - first, the callback function, second, the repeat interval (in miliseconds)
 
 setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1) }, 2000);
@@ -159,7 +159,7 @@ const intId = setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1
 clearInterval(intId);
 
 
-// ======================================================
+// =========================================
 // The "filter" method creates an array with all elements that pass a test implemented by a callback functionthat returns a Boolean.
 
 const oddNums = numbers.filter(n => {
@@ -186,7 +186,7 @@ const badMovies = movies.filter(m => m.score < 70);
 const recentMovies = movies.filter(m => m.year > 1999);
 
 
-// ======================================================
+// =========================================
 // "every" check whether ALL elements in an array pass a provided function. It returns a Boolean value.
 //
 // "some" is similar to "every" but returns true if ANY array element passes the function test.
@@ -198,7 +198,7 @@ const didAllPass = exams.every(score => score >= 75);
 const didAnyMaster = exams.some(score => score >= 90);
 
 
-// ======================================================
+// =========================================
 // "reduce" executes a reducing function on each element of the array, resulting in a single value.
 //
 

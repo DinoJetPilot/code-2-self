@@ -1,3 +1,4 @@
+// =========================================
 // Making Strings
 let color = "purple";
 
@@ -16,8 +17,8 @@ city[3]; //'y'
 'LOL'.toLowerCase(); // "lol"
 '    omg  '.trim(); // "omg"
 
+// =========================================
 // String methods with arguments:
-// ==============================
 
 //indexOf returns the index where the character is found (or -1 if not found)
 'spider'.indexOf('i'); //2
@@ -33,7 +34,7 @@ city[3]; //'y'
 
 // String Template Literals
 // Use backtick characters, NOT SINGLE QUOTES!
-// ========================
+// =========================================
 const color = "olive green";
 const msg = `My favorite color is: ${color}` //"My favorite color is: olive green"
 
