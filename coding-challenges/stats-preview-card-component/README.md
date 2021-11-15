@@ -26,7 +26,6 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
   - background-color: #aa5cdb;
   - background-blend-mode: soft-light;
 - [ ] Why default font size seems to be off?
-- [ ] Consider using background colors with variables.
 - [x] Revised padding/margin attribution.
 - [x] Revise screenshot.
 
@@ -34,7 +33,6 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 - [Flexbox Malven](https://flexbox.malven.co/) - Nice simple visual reminder of some Flexbox properties.
 - [CSS Blend/Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) - Changing the coloring of the image with blend modes.
-- [CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using variables for CSS properties.
 
 ## Author
 

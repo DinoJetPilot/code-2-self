@@ -22,11 +22,12 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Fixes
 
-- ?
+- [ ] Consider trying CSS variables.
+
 
 ## Links
 
-- []()
+- [CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Using variables for CSS properties.
 
 
 ## Author
