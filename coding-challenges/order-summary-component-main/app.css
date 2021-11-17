@@ -7,6 +7,14 @@
     color: hsl(228, 45%, 44%); 
 }
 
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desat-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
 /* 
 @media queries:
 - Mobile: 375px (default)
@@ -27,4 +35,47 @@
 ### Font
 - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
 - Weights: 500, 700, 900
+
+- font-family: 'Inter', sans-serif;
+- font-family: 'Lexend Deca', sans-serif;
 */
+
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--pale-blue);
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9em;
+}
+
+.price {
+    font-weight: 500;
+    color: var(--desat-blue);
+}
+
+#deals {
+    font-weight: 700;
+}
+
+#payment {
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    padding: 1em 3em;
+    margin: 1em;
+    border-radius: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    box-shadow: 0 10px 25px -10px var(--dark-blue);
+}
+
+#cancel {
+    font-weight: 700;
+    color: var(--desat-blue);
+}
