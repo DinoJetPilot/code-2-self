@@ -1,6 +1,7 @@
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    padding: 10px 5px;
 }
 
 .attribution a { 
@@ -13,6 +14,7 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desat-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    --max-width: 325px;
 }
 
 /* 
@@ -43,39 +45,112 @@
 body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    background-color: var(--pale-blue);
+    text-align: center;
+    color: var(--desat-blue);
+    background: top / contain no-repeat url("images/pattern-background-mobile.svg"), var(--pale-blue);
+}
+
+main {
+    margin: 50px 25px;
+    display: inline-block;
+
+}
+
+.content {
+    background-color: var(--very-pale-blue);
+    max-width: var(--max-width);
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    box-shadow: 0 10px 25px -10px var(--dark-blue);
+}
+
+.info {
+    padding: 0 35px 20px 35px;
+    line-height: 1.7em;
+    font-size: 0.9em;
+}
+
+h1, h2 {
+    color: var(--dark-blue);
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 35px 10px 10px 10px;
 }
 
 h2 {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.9em;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 0.85em;
+    padding: 0 0 0 20px;
 }
 
 .price {
     font-weight: 500;
     color: var(--desat-blue);
+    display: inline-block;
+}
+
+.miniSpan {
+    width: 100%;
+    border-radius: 1em;
+    padding: 10px;
+    background-color: var(--pale-blue);
+}
+
+.tryAgain {
+    display: flex;
+    align-items: center;
+}
+
+#headerImage {
+    height: 150px;
+    width: var(--max-width);
+    background: center / cover no-repeat url("images/illustration-hero.svg");
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+a {
+    font-size: 0.8em;
+    color: var(--bright-blue);
+    padding: 0 0 0 20px;
 }
 
 #deals {
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-basis: auto;
+    flex-grow: 1 auto 1; */
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 #payment {
     background-color: var(--bright-blue);
     color: var(--very-pale-blue);
     padding: 1em 3em;
-    margin: 1em;
+    margin: 1em 2em;
     border-radius: 0.8em;
     font-weight: 700;
     letter-spacing: 0.01em;
     box-shadow: 0 10px 25px -10px var(--dark-blue);
+    font-size: 0.95em;
 }
 
 #cancel {
     font-weight: 700;
     color: var(--desat-blue);
+    padding: 1em 1.5em 2em 1.5em;
 }
