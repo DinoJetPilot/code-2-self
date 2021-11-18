@@ -1,5 +1,5 @@
 // =========================================
-// DOM manipulation is editing the HTML/CSS elements on the page by altering them or their properties via JS.
+// DOM manipulation is editing the HTML/CSS elements on the page by altering them or their properties via JS on the fly.
 
 // The properties are important, but not necessarily crucial to memorize, just be familiar with what options are out there.
 
@@ -57,4 +57,39 @@ firstLink.setAttribute("href", "http://www.google.com")
 // setAttribute replaces or adds the attribute value. It requires two arguments - the first is the attribute, and the second is the value to add/replace.
 
 // =========================================
-// 
+// Selecting individual elements/properties via DOM: 
+
+const h1 = document.querySelectorAll("h1");
+// Accessing CSS style elements is only for inline styles on the HTML markup, and it doesn't look at external stylesheets. Note: multi word text is not hyphenated, but camelCased. 
+// For example, "text-decoration" needs to be "textDecoration"
+
+h1.style.color // returns "" (and empty string) because it has no inline styles. 
+
+// When assigning values this way, you must assign it as a string (even for numerical values), because JS doesn't see it this way the same as CSS.
+h1.style.color = "green"
+package.style.border = "2px solid red"
+
+// This way is not ideal, because it's specifically assigns styles to individual elements one at a time. The better way is to use CSS classes.
+
+window.getComputedStyle(h1).fontSize // returns something like "32px"
+h1.style.color // returns "" if there's no inline style
+
+// getComputedStyle() returns a "CSS declaration" (kind of like an array), with indexes for each property.
+
+// =========================================
+// (The better way) Selecting elements using classes via the DOM:
+
+const h2 = document.querySelector("h2"); // Stores the first h2 element i a variable.
+
+h2.getAttribute("class"); // Returns "null" if no class.
+h2.setAttribute("class", "purple");
+// Adds the "purple" class to the element. Bt you can only add one, and any others you add just overwrite the previous one.
+
+// The better option is classList
+h2.classList // Returns a "DOMTokenList with "" if there are no classes.
+
+// Syntax is: "h2.classList.method" where "method" is a real mehod like "add", "remove", etc.
+h2.classList.add("border"); // Adds the class "border". 
+h2.classList.contains("border") // Returns a Boolean if there is a class with this name.
+h2.classList.toggle("border") // Toggles the class "border" on or off (depending on whatever state it was in before), and returns a Boolen.
+
