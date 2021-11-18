@@ -52,7 +52,7 @@ body {
 }
 
 main {
-    padding: 60px 10px;
+    padding: 60px 10px 5px 10px;
     display: inline-block;
 
 }
