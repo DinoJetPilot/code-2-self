@@ -15,6 +15,7 @@
     --desat-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
     --max-width: 325px;
+    --max-width-2: 350px;
 }
 
 /* 
@@ -51,7 +52,7 @@ body {
 }
 
 main {
-    margin: 50px 25px;
+    padding: 60px 10px;
     display: inline-block;
 
 }
@@ -65,7 +66,7 @@ main {
 }
 
 .info {
-    padding: 0 35px 20px 35px;
+    padding: 10px 35px 10px 35px;
     line-height: 1.7em;
     font-size: 0.9em;
 }
@@ -77,14 +78,14 @@ h1, h2 {
 h1 {
     font-size: 1.4em;
     margin: 0;
-    padding: 35px 10px 10px 10px;
+    padding: 40px 10px 10px 10px;
 }
 
 h2 {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.9em;
-    padding: 0 0 0 20px;
-    margin: 0;
+    padding: 0 0 0 25px;
+    margin: 0 0 5px 0;
 }
 
 p {
@@ -119,10 +120,10 @@ p {
     border-top-right-radius: 1.5em;
 }
 
-a {
+.linkola {
     font-size: 0.8em;
     color: var(--bright-blue);
-    padding: 0 0 0 20px;
+    padding: 0 0 0 40px;
 }
 
 #deals {
@@ -133,7 +134,7 @@ a {
     /* flex-basis: auto;
     flex-grow: 1 auto 1; */
     padding: 30px;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
@@ -153,4 +154,44 @@ a {
     font-weight: 700;
     color: var(--desat-blue);
     padding: 1em 1.5em 2em 1.5em;
+    font-size: 0.95em;
+}
+
+@media (min-width: 1440px) {
+    body {
+        background: top / contain no-repeat url("images/pattern-background-desktop.svg"), var(--pale-blue);
+    }
+
+    h2, p {
+        padding: 0 0 0 10px;
+    }
+
+    #headerImage {
+        height: 175px;
+        width: var(--max-width-2);
+    }
+
+    .info {
+        padding: 10px 35px 10px 35px;
+        line-height: 1.7em;
+        font-size: 0.78em;
+    }
+
+    .content {
+        background-color: var(--very-pale-blue);
+        max-width: var(--max-width-2);
+
+        box-shadow: 0 10px 25px -10px var(--dark-blue);
+    }
+
+    .linkola {
+        font-size: 0.75em;
+        padding: 0 0 0 75px;
+    }
+
+    
+    #payment, #cancel {
+        font-size: 0.85em;
+    }
+
 }
