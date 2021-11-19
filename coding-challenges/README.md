@@ -4,7 +4,8 @@ A repository for various coding challenges.
 ### [Frontend Mentor](www.frontendmentor.io)
 ###### HTML, CSS:
 - [Stats preview card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
-- [WIP Order Summary Component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component-main) 
+- [Order Summary Component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component-main) 
+- [https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/profile-card-component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/profile-card-component)
 
 ### [CodePen](codepen.io)
 ###### HTML, CSS:
