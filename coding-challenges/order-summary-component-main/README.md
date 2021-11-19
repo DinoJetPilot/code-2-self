@@ -10,19 +10,19 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox / CSS Grid
+- Flexbox 
 - Mobile-first workflow
 
 ## Solution
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component-main](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component-main)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/order-summary-component-main/](https://dinojetpilot.github.io/code-2-self/coding-challenges/order-summary-component-main/)
 
-![image]()
+![image](https://user-images.githubusercontent.com/92833227/142673555-9df1ce2d-f162-48a7-8e16-a8cce603cd11.png)
 
 ## Fixes
 
-- [ ] Consider trying CSS variables.
+- [x] Consider trying CSS variables.
 
 
 ## Links
