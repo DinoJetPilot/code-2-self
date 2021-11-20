@@ -35,3 +35,6 @@ myPromise.then(result => { });
 // A "catch" is a methos like the "then", except it's used for when a promise is rejected. It is also executed immediately after the promise is rejected. Similarly, "error" is from the "reject" argument in the promise.
 
 myPromise.catch(error => { });
+
+// =========================================
+// 
