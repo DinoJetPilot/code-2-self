@@ -131,4 +131,34 @@ firstSquareImg.previousElementSibling
 
 // =========================================
 // =========================================
-// 
+// Creating elements in the DOM with appendChild() or append()
+
+// Example 1 (with an image):
+const newImg = document.createElement("img"); // This creates and empty image tag in a variable, nothing more.
+
+console.dir(newImg); // Returns an empty <img> object.
+// Being stored in a variable, you can add elements to it:
+newImg.src = "www.website.com/image.jpg";
+
+// Similar elements can still be added, like usual:
+newImage.classList.add("square"); // Adds the "square" class to the element. 
+
+// But the image element still needs to be added to the page somehow. Using the appendChild() method, you can do it like this:
+document.body.appendChild(newImg); // Appends it as the last child of the <body> element.
+
+// Example 2 (with a heading):
+const newH3 = document.createElement("h3"); // Returns an empty <h3> element.
+
+newH3.innerText = "I am a new heading." // Adds this text to the element.
+document.body.appendChild(newH3); // Appends the <h3> to end of the <body> element.
+
+// =========================================
+// The newer append() method allows multiple attributes to be set at once, and it also allows you to pass things like text without first creating the node (using appendChild()), then updating the attributes (with .innerText, etc.)
+
+const p = document.querySelector("p");
+p.append("I am text appended to the end of the text. ", "And I can add multiple attributes.")
+// If you try this method with p.appendChild("I am text..."), it will return an error because it's not a "node" tyope.
+
+// =========================================
+// prepend() is the other way to add something to the beginning of a selected element.
+
