@@ -57,6 +57,7 @@ firstLink.setAttribute("href", "http://www.google.com")
 // setAttribute replaces or adds the attribute value. It requires two arguments - the first is the attribute, and the second is the value to add/replace.
 
 // =========================================
+// =========================================
 // Selecting individual elements/properties via DOM: 
 
 const h1 = document.querySelectorAll("h1");
@@ -93,3 +94,41 @@ h2.classList.add("border"); // Adds the class "border".
 h2.classList.contains("border") // Returns a Boolean if there is a class with this name.
 h2.classList.toggle("border") // Toggles the class "border" on or off (depending on whatever state it was in before), and returns a Boolen.
 
+// =========================================
+// =========================================
+// Family selectors - parentElement, children, nextSibling, nextElementSibling, previousSibling, perviousElementSibling
+
+const firstBold = document.querySelector("b");
+// Every element has a single direct parent. It can have grandparents, great grandparents, etc., but still only has one parent element.
+
+firstBold.parentElement // Returns the <p> element (the parent of the <b> tag)
+firstBold.parentElement.parentElement // Returns the <body>
+firstBold.parentElement.parentElement.parentElement // Returns the root <html>
+
+const paragraphOfFirstBold = firstBold.parentElement;
+// On the other hand, and element can have multipe child elements.
+
+paragraphOfFirstBold.children // Returns the HTML collection (and array-like object) of all children of that element. Listd in the same order found in that element.
+
+// Note: HTML elements cannot use array methods, but have indecies and can be iterated over.
+paragraphOfFirstBold.children[0] // Returns that first bold tag again.
+
+// =========================================
+// Sibling selectors:
+
+const firstSquareImg = document.querySelector(".square"); // Returns the first image with the class "square".
+
+firstSquareImg.parent // returns the <body> unless it's contained in a <div> or <span>.
+
+firstSquareImg.nextSibling
+firstSquareImg.previousSibling
+// Both return the next or previous node. Not as commonly used as having "element" option (see next example).
+// A node can be things like "#text" and can represent white space or a return line break.
+
+firstSquareImg.nextElementSibling
+firstSquareImg.previousElementSibling
+// In the example webpage, this syntax returns the image that follows the first one, or the <p> tag before it.
+
+// =========================================
+// =========================================
+// 
