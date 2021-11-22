@@ -1,4 +1,5 @@
 // =========================================
+// =========================================
 // DOM manipulation is editing the HTML/CSS elements on the page by altering them or their properties via JS on the fly.
 
 // The properties are important, but not necessarily crucial to memorize, just be familiar with what options are out there.
