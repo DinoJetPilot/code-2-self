@@ -8,4 +8,3 @@ const testString = "Testing the waters";
 let testRegex = /waters/;
 testRegex.test(testString); // Returns true.
 
-
