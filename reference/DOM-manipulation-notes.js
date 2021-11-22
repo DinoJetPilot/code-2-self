@@ -3,11 +3,13 @@
 
 // The properties are important, but not necessarily crucial to memorize, just be familiar with what options are out there.
 
+// NOTE: Many of the NEWER syntaxes are not supported in Internet Explorer, so unless you specifically needs IE compatability, stick with the newer (and easier) methods.
+
 // =========================================
 // (Still using the "manipulating" files in section 24)
 
 // Some of the most important properties and methods:
-// classList, getAttribute(), setAttribute(), append(). appendChild(), prepend(), removeChild(), remove(), createElement, innerText, textContent, innerHTML, value, style, parentElement, children, nextSibling, previousSibling
+// classList, getAttribute(), setAttribute(), append(). appendChild(), prepend(), removeChild(), remove(), createElement, innerText, textContent, innerHTML, value, style, parentElement, children, nextSibling, previousSibling, insertAdjacentElement()
 
 // =========================================
 // =========================================
@@ -160,5 +162,49 @@ p.append("I am text appended to the end of the text. ", "And I can add multiple 
 // If you try this method with p.appendChild("I am text..."), it will return an error because it's not a "node" tyope.
 
 // =========================================
-// prepend() is the other way to add something to the beginning of a selected element.
+// The prepend() method is the other way to add something to the beginning of a selected element.
 
+const newBold = document.createElement("b");
+
+// Two ways to add text to the newly created node:
+newBold.append("Add this text.");
+newBold.innerText("Add this text.");
+
+p.prepend(newBold); // Adds the next text to the beginning of the <p> tag.
+
+// =========================================
+// The insertAdjacentElement() method is another way to insert elements, but you must specify two arguments:
+// exampleElement.insertAdjacentElement(position, element)
+// position can be: beforebegin, afterbegin, beforeend, afterend
+
+const h2 = document.createElement("h2");
+
+h2.append("A sub-heading goes here!"); // Or can add text using .innerText
+
+const h1 = document.querySelector("h1");
+h1.insertAdjacentElement("afterend", h2);
+
+// =========================================
+// The after() and before() methods insert something directly after or before the selected element.
+
+const h3 = document.createElement("h3");
+h3.append("A new sub-heading here.") // Or you can use .innerText instead of append
+
+h3.after("h1");
+
+// =========================================
+// =========================================
+// Removing elements can be done with the older syntax, removeChild(), or the newer one, remove().
+
+// The removeChild() method requires selecting the parent of the element you want to remove. For example: 
+const firstLi = document.querySelector("li"); //Selects the first <li> 
+
+const ulExample = firstLi.parentElement; // Selects the <ul> of the <li>
+ulExample.removeChild(firstLi); // Removes the element
+// To do this in one line:
+firstLi.parentElement.removeChild(firstLi);
+
+
+// The newer remove syntax is used on the actual element to be removed.
+const delImg = document.querySelector("img");
+delImg.remove();
