@@ -27,6 +27,7 @@ Like "note to self" but punnier...
 - Transition
 - Tansform
 - Flex box - justify-content/items, align, flex-wrap/direction, etc.
+- CSS grid
 
 ##### JavaScript
 - try/catch functions
