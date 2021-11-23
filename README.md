@@ -34,3 +34,4 @@ Like "note to self" but punnier...
 - callback functions
 - arrow functions
 - recursive functions
+- regular expressions
