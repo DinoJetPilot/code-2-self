@@ -27,6 +27,7 @@ Like "note to self" but punnier...
 - Transition
 - Tansform
 - Flex box - justify-content/items, align, flex-wrap/direction, etc.
+- CSS grid
 
 ##### JavaScript
 - try/catch functions
@@ -34,3 +35,4 @@ Like "note to self" but punnier...
 - callback functions
 - arrow functions
 - recursive functions
+- regular expressions
