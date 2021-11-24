@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Basics</title>
+</head>
+
+<body>
+    <h1>Event Basics</h1>
+
+    <h2>Method 1: Inline Coded Buttons</h2>
+    <!-- This is NOT a preferred way. It's inline HTML handlers using JS code and seperate lines have to be separated by semi-colons. -->
+    <button onclick="alert('You clicked me!'); alert('Stop clicking me!!')">Click Me</button>
+    <button ondblclick="alert('You clicked me!'); alert('Stop clicking me!!')">Doucle-Click Me</button>
+
+    <h2>Method 2: Using Linked JS Code</h2>
+    <button id="v2">Click Me (v2)</button>
+
+    <h2>Method 3: Using Linked JS Code, addEventListener</h2>
+    <h3>(This one is the most ideal)</h3>
+    <button>I'm the Best to Click!!</button>
+    <script src="myapp.js"></script>
+</body>
+
+</html>

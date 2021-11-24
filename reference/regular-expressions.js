@@ -54,6 +54,16 @@ let tagRegex1 = /<.*?>/; // Returns "<h1>".
 let tagRegex2 = /<.*>/; // Returns "<h1>Winter is coming</h1>".
 
 // =========================================
+// Using the replace() method allows your to search and replace text in a string.
+
+let replaceRegex = /cold/;
+let stringTemp = "Today's weather will be cold.";
+stringTemp.replace(replaceRegex, "hot")
+
+// You can also capture groups, then assign them with the dollar sign.
+"Yes No".replace(/(\w+)\s(\w+)/, '$2 $1'); // Returns "No Yes".
+
+// =========================================
 // Lookahead patterns for finding patterns further along in the string.
 
 // Positive lookahead looks for the element in the seacr pattern, but won't match it.
