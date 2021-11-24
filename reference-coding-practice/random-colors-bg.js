@@ -1,3 +1,5 @@
+// Based off of Colt's course, Section 25: #259 "Random Color Exercise."
+
 const bodySet = document.querySelector("body");
 const firstDiv = document.querySelector("div");
 
