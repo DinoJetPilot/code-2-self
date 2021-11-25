@@ -23,10 +23,10 @@ Desktop: 1440px
 
 body {
     font-size: 18px;
+    letter-spacing: 0.03em;
     color: var(--gray-blue);
     font-family: 'Kumbh Sans', sans-serif;
-    background: right 70% no-repeat url("images/bg-pattern-top.svg");
-    /* background: url("images/bg-pattern-bottom.svg"); */
+    background: -300px -300px / 500px no-repeat url("images/bg-pattern-top.svg"), 200px 300px / 500px no-repeat url("images/bg-pattern-top.svg");
     background-color: var(--cyan);
 }
 
@@ -35,11 +35,40 @@ body {
     color: var(--desat-blue);
 }
 
+#squares {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.box-sm {
+    width: 50px;
+    height: 50px;
+}
+
+.box-lg {
+    margin: auto;
+    width: 150px;
+    height: 65px;
+}
+
+.mini {
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+.mini2 {
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+}
+
 main {
     text-align: center;
     margin: auto;
     width: 90%; 
-    padding-top: 5em;
+    max-width: 340px;
+    padding-top: 6em;
 }
 
 main > div {
@@ -47,7 +76,7 @@ main > div {
     border-top-right-radius: 0.9em;
     border-bottom-left-radius: 0.9em;
     border-bottom-right-radius: 0.9em;
-    box-shadow: 0 0 5px var(--desat-blue);
+    box-shadow: 0 0 5px -5px var(--desat-blue);
 }
 
 .cardTop {
@@ -58,15 +87,28 @@ main > div {
 }
 
 .cardBottom {
+    padding-top: 4.4em;
+    padding-bottom: 1em;
     background-color: white;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
 }
 
 .avatar {
-
+    border-radius: 50%;
+    box-sizing: content-box;
+    border: thick solid white;
+    position: sticky;
+    margin: 90px -50px;
 }
 
-@media (max-width: 375px) {
-
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+        letter-spacing: 0.03em;
+        color: var(--gray-blue);
+        font-family: 'Kumbh Sans', sans-serif;
+        background: 0px -400px / 700px no-repeat url("images/bg-pattern-top.svg"), 700px 400px / 700px no-repeat url("images/bg-pattern-top.svg");
+        background-color: var(--cyan);
+    }
 }
