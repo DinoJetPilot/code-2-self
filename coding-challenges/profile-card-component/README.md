@@ -26,8 +26,8 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Links
 
-- [Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Referenced box-shadow properties.
-- [Background Shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - Referenced shorthand properties for background images.
+- [Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Referenced MDN docs for box-shadow properties.
+- [Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - Referenced MDN docs for shorthand properties for background images.
 
 
 ## Author
