@@ -9,24 +9,25 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox / CSS Grid
+- Flexbox
 - Mobile-first workflow
 
 ## Solution
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/profile-card-component/](https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/profile-card-component/)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/profile-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/profile-card-component/)
 
 ![image]()
 
 ## Fixes
 
-- [ ] ?
+- [ ] How to emulate the background to respond better to resizing.
 
 
 ## Links
 
-- []() - ?
+- [Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Referenced MDN docs for box-shadow properties.
+- [Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - Referenced MDN docs for shorthand properties for background images.
 
 
 ## Author
