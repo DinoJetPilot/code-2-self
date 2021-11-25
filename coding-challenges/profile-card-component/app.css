@@ -104,9 +104,6 @@ main > div {
 
 @media (min-width: 1200px) {
     body {
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        color: var(--gray-blue);
         font-family: 'Kumbh Sans', sans-serif;
         background: 0px -400px / 700px no-repeat url("images/bg-pattern-top.svg"), 700px 400px / 700px no-repeat url("images/bg-pattern-top.svg");
         background-color: var(--cyan);
