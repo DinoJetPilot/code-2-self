@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>My Forms</h1>
+
+    <h2>Minecraft Supplies</h2>
+    <form action="/avail" id="avail">
+        <!-- The "action" is the place the form is sending the data to; after submitting, the page refreshes at that location. -->
+        <!-- This can be prevented using an event listener in JS. -->
+
+        <input type="text" id="res" placeholder="Enter resource name..." />
+        <button>Submit</button>
+    </form>
+    <hr>
+
+    <h3>Resources Available:</h3>
+    <!-- The blank unordered list to add the form items to: -->
+    <ul id="resources">
+    </ul>
+
+    <h2>Minecraft Builds</h2>
+    <form action="/builds" id="builds">
+        <p>Suggested build: <input type="text" id="build" placeholder="house" required> - Difficulty: (Easy &rarr;
+            Hard)<input type="range" id="difficulty" min="1" max="5" value="3" list="ticks">
+            <datalist id="ticks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+        </p>
+        <p>Username: <input type="text" placeholder="Steve" id="name" required>
+            <button>Submit</button>
+        </p>
+    </form>
+
+    <h3>Suggestions:</h3>
+    <ul id="suggestions"></ul>
+
+    <hr>
+
+    <h2>Mock Tweets</h2>
+
+    <form action="/tweets" id="tweetTest">
+        <input type="text" id="username" name="username" placeholder="username" size="11" required>
+        <input type="text" id="tweet" name="tweet" placeholder="enter tweet here" size="45" required>
+        <button>Post Tweet</button>
+    </form>
+
+    <h3>New Posts:</h3>
+
+    <ul id="comments"></ul>
+    <hr>
+
+    <script src="form-events.js"></script>
+</body>
+
+</html>
