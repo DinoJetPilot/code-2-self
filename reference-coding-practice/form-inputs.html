@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change & Input Events</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<h1>Form Inputs</h1>
+
+<body>
+    <h2></h2>
+    <form action="/nowhere">
+        <input type="text" id="changeEvent"></input>
+        <button>Don't Submit</button>
+    </form>
+    <hr>
+
+    <!-- Event bubbling is seen below. If you click the button, it will console.log ALL three (the section, the paragraph, and the button)-->
+    <section onclick="console.log('Section Clicked!')">
+        <p onclick="console.log('Paragraph Clicked!')">
+            I am paragraph text.
+            <button onclick="console.log('Button Clicked!')">Click</button>
+        </p>
+    </section>
+    <hr>
+    <div id="container">
+        Click to Hide
+        <button id="changeColor">Change Color</button>
+    </div>
+
+    <script src="form-inputs.js"></script>
+</body>
+
+</html>

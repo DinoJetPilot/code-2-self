@@ -1,3 +1,4 @@
+// =========================================
 const form = document.querySelector("#avail");
 const input = document.querySelector("#res");
 const ul = document.querySelector("#resources");
@@ -16,6 +17,7 @@ form.addEventListener("submit", function (e) {
     input.value = "";
 });
 
+// =========================================
 // Trying multiple form elements:
 
 const formBuilds = document.querySelector("#builds");
@@ -52,6 +54,7 @@ formBuilds.addEventListener("submit", function (e) {
     name.value = "";
 });
 
+// =========================================
 // Mock Tweet example:
 
 const tweetTest = document.querySelector("#tweetTest");
@@ -75,3 +78,17 @@ tweetTest.addEventListener("submit", function (e) {
     tweet.value = "";
 });
 
+// Adding to the original mock tweet practice by addEventListener for the list elements in order to delete one. The code below only removes <li> tags that were already added to the page, but won't work on ones created in the mock tweet. 
+// const lis = document.querySelectorAll("li");
+// for (let li of lis) {
+//     li.addEventListener("click", function () {
+//         li.remove();
+//     });
+// }
+
+// In order to target dynamically created content like this, you'll use event delegation. In this case, we target the parent of the <li>, the <ul> ("#comments"):
+comments.addEventListener("dblclick", function (e) {
+    console.log(e); // Shows the object in the console.
+    e.target.nodeName === "LI" && e.target.remove(); // Checks first if element is an <li>, but if not then doesn't even run the remaining code.
+    e.target.nodeName !== "LI" && e.path[1].remove(); // Checks if elements is anything except and <li>, and if so it removes the <li> element in the array path.
+});
