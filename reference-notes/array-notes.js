@@ -18,14 +18,14 @@ colors.length; // Returns 3
 // Important array methods:
 // push(value) - adds value to the END of an array
 colors.push('green');
-// pop() - removes and returns last value in array
+// pop() - removes and returns last value in array (and can only remove a single element at a time)
 colors.pop();
 const removeLast = colors.pop(); // It also can be stored in a variable.
 
 
 // unshift(value) - adds value to START of an array
 colors.unshift('purple');
-// shift() - removes and returns first element in an array
+// shift() - removes and returns first element in an array (and can only remove a single element at a time)
 colors.shift();
 const removeFirst = colors.shift(); // Can also be stored in a variable.
 
@@ -68,3 +68,34 @@ colorsRainbow.splice(5, 1, 'indigo'); // cuts array at index[5] and adds indigo 
 // Eventually it's better to use a function to pass as an argument to better sort than the default way
 const numbers = [100, 99, 1, 32, -15, 2500];
 numbers.sort(); // returns array as: [-15, 0, 1, 100, 2500, 32, 99] or based on the INITIAL value, not the numerical value
+
+
+// ========================================= 
+// The spread operator is an ES6 syntax that copies all of an array's elements using an elipse ...
+
+const nums = [13, 4, 5, 21, 3, 3, 1, 2, 7, 6, 4, 2, 53456];
+// Spread in funcions:
+Math.max(nums) //NaN
+Math.max(...nums) //53456
+
+
+// Sread in syntax:
+const cats = ['Blue', 'Scout', 'Rocket'];
+const dogs = ['Rusty', 'Wyatt'];
+
+const allPets = [...cats, ...dogs];
+
+
+// Spread in objects:
+const feline = { legs: 4, family: 'Felidae' };
+const canine = { isFurry: true, family: 'Caninae' };
+
+const catDog = { ...feline, ...canine };
+
+
+const dataFromForm = {
+    email: 'blueman@gmail.com',
+    password: 'tobias123!',
+    username: 'tfunke'
+}
+const newUser = { ...dataFromForm, id: 2345, isAdmin: false }
