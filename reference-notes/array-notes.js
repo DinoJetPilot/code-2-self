@@ -1,25 +1,33 @@
 // =========================================
 // Making an array (uses cont, let, or var)
+const emptyArray = [];
 const colors = ["red", "orange", "yellow"];
 
-// Arrays are indexed like strings:
+// Arrays are indexed like strings, but start at the zeroth position:
 colors[0]; // "red"
+colors[1]; // "orange"
+colors[2]; // "yellow"
+
+// Array indecies can be updated with bracket notation as well.
+colors[2] = "gold";
 
 // They have a length:
-colors.length; //3
+colors.length; // Returns 3
 
 // =========================================
 // Important array methods:
-//push(value) - adds value to the END of an array
+// push(value) - adds value to the END of an array
 colors.push('green');
-//pop() - removes and returns last value in array
+// pop() - removes and returns last value in array
 colors.pop();
+const removeLast = colors.pop(); // It also can be stored in a variable.
 
 
-//unshift(value) - adds value to START of an array
+// unshift(value) - adds value to START of an array
 colors.unshift('purple');
-//shift() - removes and returns first element in an array
+// shift() - removes and returns first element in an array
 colors.shift();
+const removeFirst = colors.shift(); // Can also be stored in a variable.
 
 const colors2 = ["green", "blue", "violet"];
 // concat(value) - merges arrays
