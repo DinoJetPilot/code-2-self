@@ -152,7 +152,7 @@ console.log("Then this prints out BEFORE the setTimeout function runs (but is AF
 // "setInterval" requires passing through two arguments - first, the callback function, second, the repeat interval (in miliseconds)
 
 setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1) }, 2000);
-// Above interval should repeat indefinitely every 2 seconds, but to stop use the "clearInterval()" with a value, byt saving it to a variable.
+// Above interval should repeat indefinitely every 2 seconds, but to stop use the "clearInterval()" with a value, by saving it to a variable.
 
 const intId = setInterval(() => { console.log(Math.floor(Math.random() * 10) + 1) }, 2000);
 
