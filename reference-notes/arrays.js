@@ -79,8 +79,10 @@ let sameArray = [...thisArray];
 
 const nums = [13, 4, 5, 21, 3, 3, 1, 2, 7, 6, 4, 2, 53456];
 // Spread in funcions:
-Math.max(nums) //NaN
-Math.max(...nums) //53456
+Math.max(nums) // NaN (Because the max/min method is only looking for a single argument)
+Math.max(...nums) // 53456
+
+Math.min(...nums) // 1
 
 
 // Sread in syntax:
