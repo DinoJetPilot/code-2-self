@@ -1,5 +1,5 @@
 // =========================================
-To make an object literal:
+// To make an object literal:
 const dog = {
     name: "Rusty",
     breed: "unknown",

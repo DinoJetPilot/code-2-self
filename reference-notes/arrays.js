@@ -47,8 +47,8 @@ colors.includes('Red'); // returns false, in this case
 colors.indexOf('red'); //returns 0
 colors.indexOf('orange'); //returns 1
 colors.indexOf('yellow'); //returns 2
-colors.includes('RED'); // returns -1
-colors.includes('aqua'); // returns -1
+colors.indexOf('RED'); // returns -1
+colors.indexOf('aqua'); // returns -1
 
 // reverse() - reverses an array (destructive method; rewrites/replaces the original array)
 colorsRainbow.reverse();
@@ -72,6 +72,10 @@ numbers.sort(); // returns array as: [-15, 0, 1, 100, 2500, 32, 99] or based on 
 
 // ========================================= 
 // The spread operator is an ES6 syntax that copies all of an array's elements using an elipse ...
+
+let thisArray = [1, 2, undefined, false, null];
+let sameArray = [...thisArray];
+// Both variables contain the same array now.
 
 const nums = [13, 4, 5, 21, 3, 3, 1, 2, 7, 6, 4, 2, 53456];
 // Spread in funcions:
