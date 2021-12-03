@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Consider trying Bulma CSS framework -->
+    <title>Ping Pong Score Keeper Code-along | Colt's Bootcamp | Section 26</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img src="" alt="Ping Pong Image">
+            <h1>Ping Pong Score Keeper</h1>
+        </section>
+
+        <section>
+            <div>
+
+                <table>
+                    <th>
+                        <tr>
+                            <td>Player 1</td>
+                            <td>--</td>
+                            <td>Player 2</td>
+                        </tr>
+                    </th>
+                    <tr>
+                        <td><span id="player1Score">0</span></td>
+                        <td>to</td>
+                        <td><span id="player2Score">0</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><span id="winner">Who will win?</span></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div>
+                Playing to:
+
+                <select name="playingTo" id="playingTo">
+                    <option value="3">3</option>
+                    <option value="5" selected="selected">5</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+            </div>
+        </section>
+
+        <section>
+            Directions: Use the buttons below to change each player's score.
+            <div>
+                <button id="plusP1">+ Player 1</button>
+                <button id="plusP2">+ Player 2</button>
+            </div>
+            <div>
+                <button id="minusP1">- Player 1</button>
+                <button id="minusP2">- Player 2</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="score-keeper-s26.js"></script>
+</body>
+
+</html>
