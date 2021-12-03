@@ -1,5 +1,5 @@
 // =========================================
-// To make an object literal:
+// To make an object literal (an object comprised of key-value pairs).
 const dog = {
     name: "Rusty",
     breed: "unknown",
@@ -19,9 +19,11 @@ dog["age"] = 8;
 
 // Dot notation is rigid, but square brakets allow for dynamic elements.
 // For example year[birthYear] looks for the value of that variable, then it will put that value inplace of the variable and search for a key with that value
+const eyes = 'eye color';
+dog[eyes] = 'brown';
+// This will add a "eyes" property with a value of "brown".
 
-
-// Example use from Colt's Bootcamp
+// Example used from Colt's Bootcamp
 const restaurant = {
     name: 'Ichiran Ramen',
     address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
@@ -65,3 +67,52 @@ const student = {
         final: 88
     }
 }
+
+// =========================================
+// Updating values in nested objects:
+student.exams.final = 87;
+
+// Using brakcet notation to find the value in an object:
+let foods = {
+    apples: 25,
+    oranges: 32,
+    plums: 28,
+    bananas: 13,
+    grapes: 35,
+    strawberries: 27
+};
+
+function checkInventory(scannedItem) {
+    return foods[scannedItem]; // Returns "25"
+}
+
+// To delete (remove) a certain key-value pair from an object:
+delete foods.bananas;
+
+// There are two ways to check an object for the presence of an property:
+foods.hasOwnProperty("plums"); // Returns true.
+"plums" in users; // Returns true.
+
+// =========================================
+// Object.keys() generates an array containing all the keys stored in an object using this syntax. (It's captial "O" and plural "keys")
+
+let users = {
+    Alan: {
+        age: 27,
+        online: false
+    },
+    Jeff: {
+        age: 32,
+        online: true
+    },
+    Sarah: {
+        age: 48,
+        online: false
+    },
+    Ryan: {
+        age: 19,
+        online: true
+    }
+};
+
+console.log(Object.keys(users)); // Prints ["Alan", "Jeff", "Sarah", "Ryan"].

@@ -71,7 +71,7 @@ numbers.sort(); // returns array as: [-15, 0, 1, 100, 2500, 32, 99] or based on 
 
 
 // ========================================= 
-// The spread operator is an ES6 syntax that copies all of an array's elements using an elipse ...
+// The spread operator is an ES6 syntax that copies all of an array's elements and you use it with an elipse ... before the array name.
 
 let thisArray = [1, 2, undefined, false, null];
 let sameArray = [...thisArray];

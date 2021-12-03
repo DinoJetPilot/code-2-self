@@ -81,6 +81,19 @@ for (let i = 0; i < animals.length; i++) {
 
 
 // =========================================
+// for...of loops
+
+// Using Object methods to iterate
+// (turn data into an array and then use for...of)
+
+let total = 0;
+let scores = Object.values(testScores);
+for (let score of scores) {
+    total += score;
+}
+console.log(total / scores.length)
+
+// =========================================
 // while loops
 
 // Code below is better to be used as a for loop, but this accomplishes the same thing less efficiently.
@@ -116,4 +129,23 @@ if (guess === 'q') {
 } else {
     console.log("CONGRATS YOU WIN!")
     console.log(`You got it! It took you ${attempts} guesses`)
+}
+
+// =========================================
+// Iterating through the keys of an object using for...in statement.
+
+const users = {
+    Alan: {
+        online: false
+    },
+    Jeff: {
+        online: true
+    },
+    Sarah: {
+        online: false
+    }
+}
+
+for (let user in users) {
+    console.log(user);
 }
