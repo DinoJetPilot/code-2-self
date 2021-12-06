@@ -14,78 +14,83 @@
 
 
 <body>
-    <div class="columns is-centered">
-        <div class="column is-half">
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="column is-half">
 
-            <div class="card container column is-two-thirds">
-                <h1 class="is-size-3 is-uppercase has-text-centered">Ping Pong Score Keeper</h1>
-                <figure class="image"><img class="image is-inline-block"
-                        src="https://images.unsplash.com/photo-1624936188350-883a61a44116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
-                        alt="Ping Pong Image"></figure>
-
-            </div>
-
-            <div class="card container">
-                <table class="table is-striped mx-auto has-text-centered mb-1">
-                    <tr>
-                        <td id="player1">Player 1</td>
-                        <td id="winningIcon"></td>
-                        <td id="player2">Player 2</td>
-                    </tr>
-                    <tr class="is-size-3">
-                        <td><span id="player1Score">0</span></td>
-                        <td class="is-size-6 is-vcentered">to</td>
-                        <td><span id="player2Score">0</span></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><span id="winner">Who will win?</span></td>
-                    </tr>
-                </table>
-
-                <div class="has-text-centered pb-3">
-                    Directions: Use the buttons below to change each player's score. Set winning score to:
-
-                    <select name="playingTo" id="playingTo">
-                        <option value="3">3</option>
-                        <option value="5" selected="selected">5</option>
-                        <option value="7">7</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-
+                <div class="card container column is-two-thirds">
+                    <h1 class="is-size-3 is-uppercase has-text-centered">Ping Pong Score Keeper</h1>
+                    <figure class="image"><img class="image is-inline-block"
+                            src="https://images.unsplash.com/photo-1624936188350-883a61a44116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                            alt="Ping Pong Image"></figure>
 
                 </div>
 
-                <footer class="card-footer" style="align-items: center;">
+                <div class="card container">
+                    <table class="table is-striped mx-auto has-text-centered mb-1">
+                        <tr>
+                            <td id="player1">Player 1</td>
+                            <td id="winningIcon"></td>
+                            <td id="player2">Player 2</td>
+                        </tr>
+                        <tr class="is-size-3">
+                            <td><span id="player1Score">0</span></td>
+                            <td class="is-size-6 is-vcentered">to</td>
+                            <td><span id="player2Score">0</span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><span id="winner">Who will win?</span></td>
+                        </tr>
+                    </table>
 
-                    <button class="card-footer-item button is-success has-text-weight-semibold is-medium" id="plusP1">+
-                        Player
-                        1</button>
-                    <button class="card-footer-item button is-warning is-light has-text-weight-bold is-small"
-                        id="minusP1">-
-                        Player 1</button>
+                    <div class="has-text-centered pb-3">
+                        Directions: Use the buttons below to change each player's score. Set winning score to:
 
-                    <button class="card-footer-item button is-link has-text-weight-semibold is-medium" id="plusP2">+
-                        Player
-                        2</button>
-                    <button class="card-footer-item button is-danger is-light has-text-weight-bold is-small"
-                        id="minusP2">-
-                        Player
-                        2</button>
+                        <select name="playingTo" id="playingTo">
+                            <option value="3">3</option>
+                            <option value="5" selected="selected">5</option>
+                            <option value="7">7</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
 
-                    <button class="card-footer-item button is-warning has-text-weight-bold is-medium"
-                        id="reset">Reset</button>
 
-                </footer>
+                    </div>
 
+                    <footer class="card-footer" style="align-items: center;">
+
+                        <button class="card-footer-item button is-success has-text-weight-semibold is-medium"
+                            id="plusP1">+
+                            Player
+                            1</button>
+                        <button class="card-footer-item button is-warning is-light has-text-weight-bold is-small"
+                            id="minusP1">-
+                            Player 1</button>
+
+                        <button class="card-footer-item button is-link has-text-weight-semibold is-medium" id="plusP2">+
+                            Player
+                            2</button>
+                        <button class="card-footer-item button is-danger is-light has-text-weight-bold is-small"
+                            id="minusP2">-
+                            Player
+                            2</button>
+
+                        <button class="card-footer-item button is-warning has-text-weight-bold is-medium"
+                            id="reset">Reset</button>
+
+                    </footer>
+
+                </div>
             </div>
+
+
+
         </div>
+    </section>
 
 
-
-    </div>
-
-    <!-- <main>
+    <!-- Original markup:
+        <main>
         <section>
             <img src="https://images.unsplash.com/photo-1624936188350-883a61a44116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
                 alt="Ping Pong Image">

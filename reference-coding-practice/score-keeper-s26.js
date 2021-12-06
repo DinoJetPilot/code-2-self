@@ -4,6 +4,7 @@ const player1Score = document.querySelector("#player1Score");
 const player2Score = document.querySelector("#player2Score");
 const playingTo = document.querySelector("#playingTo");
 const winner = document.querySelector("#winner");
+const winningIcon = document.querySelector("#winningIcon");
 
 // Default values:
 let p1 = 0;
@@ -37,21 +38,25 @@ function showLeader() {
         player2Score.style.color = "black";
         player1.style.color = "green";
         player2.style.color = "black";
+        winningIcon.innerHTML = "&larr;";
     } else if (p1 < p2) {
         player1.style.color = "black";
         player2.style.color = "blue";
         player1Score.style.color = "black";
         player2Score.style.color = "blue";
+        winningIcon.innerHTML = "&rarr;";
     } else if (p1 === p2) {
         player1.style.color = "green";
         player2.style.color = "blue";
         player1Score.style.color = "green";
         player2Score.style.color = "blue";
+        winningIcon.innerHTML = "&harr;";
     } else {
         player1.style.color = "black";
         player2.style.color = "black";
         player1Score.style.color = "black";
         player2Score.style.color = "black";
+        winningIcon.innerHTML = "";
     }
 }
 
@@ -61,12 +66,16 @@ function winCondition() {
     if (p1 === win) {
         player1.style.fontWeight = "700";
         player1Score.style.fontWeight = "700";
+        player1Score.style.color = "green";
+        player2Score.style.color = "black";
         winner.textContent = "Player 1 wins!";
         // winner.innerText = "Player 1 wins!"; (Could also be used)
         disableButtons();
     } else if (p2 === win) {
         player2.style.fontWeight = "700";
         player2Score.style.fontWeight = "700";
+        player1Score.style.color = "black";
+        player2Score.style.color = "blue";
         winner.textContent = "Player 2 wins!";
         disableButtons();
     }
@@ -101,6 +110,7 @@ function resetGame() {
     player2.style.fontWeight = "400";
     player1Score.style.fontWeight = "400";
     player2Score.style.fontWeight = "400";
+    winningIcon.innerHTML = "";
     winner.innerText = "Who will win?";
 };
 
