@@ -40,3 +40,40 @@ const msg = `My favorite color is: ${color}` //"My favorite color is: olive gree
 
 const str = `There are ${60 * 60 * 24} seconds in a day`//"There are 86400 seconds in a day"
 
+// =========================================
+// =========================================
+// The split() method divides a string into an ordered list of sub strings.
+
+const strExample = "Hello"
+
+strExample.split() // Returns "Hello"
+strExample.split("") // Returns ["H", "e", "l", "l", "o"]
+
+const strPhrase = "Hello World"
+strExample.split(" ") // Returns ["Hello", "World"]
+
+
+// =========================================
+// The reverse() method reverses an array (but useful when converting a string to an array). When combined with join(), the string returns reversed.
+
+strReverse = strExample.reverse(); // Returns ["o", "l", "l", "e", "H"]
+strJoined = strReverse.join(""); // Returns olleH
+
+// This all can be combined as:
+strExample.split("").reverse.join(""); // Takes "Hello" and returns "olleH"
+
+// =========================================
+// Sorting elements using the array method to find the longest word: 
+
+function findLongestWord(str) {
+    let strSp = str.split(" ");
+    let longest = strSp.sort(function (a, b) {
+        return b.length - a.length;
+    })
+    return longest[0].length; // Returns 6
+    // return longest[0]; // Returns the word "jumped"
+
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
+
