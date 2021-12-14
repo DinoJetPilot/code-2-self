@@ -30,9 +30,11 @@ Like "note to self" but punnier...
 - CSS grid
 
 ##### JavaScript
+- DOM manipulation - querySelector, selectElementById, etc.
 - try/catch functions
 - array methods
 - callback functions
 - arrow functions
 - recursive functions
 - regular expressions
+- callstack, callback hell, promises (then, catch), etc.
