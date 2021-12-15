@@ -118,7 +118,7 @@ fakeRequestPromise("fake.website.com/apis/info-1")
         return fakeRequestPromise("fake.website.com/apis/info-3")
     })
     .then((data) => {
-        console.log("Promis resolved the third time!!!")
+        console.log("Promise resolved the third time!!!")
         console.log(data)
     })
     // You can use a single .catch() for all of the promises chained:
@@ -126,3 +126,89 @@ fakeRequestPromise("fake.website.com/apis/info-1")
         console.log("Once a promise rejected on any of them.")
         console.log(err) // Returns 'Connection Timeout :('
     })
+
+// =========================================
+// =========================================
+// Creating promises:
+
+// Use the "new" operator (you can assign this to a variable)
+// Declare the promise with a capital "P"
+// First argument is "someNameForSuccess", the second "someNameforFailure" (both are just parameters, so they can be named whatever - usually just "resolve" and "reject")
+new Promise((someNameForSuccess, someNameForFailure) => {
+    // run function's code 
+});
+
+// Example: 
+const fakeRequest = (url) => {
+    return new Promise((resolve, reject) => {
+        // Setting the timeout to resolve the promise after about 1 sec.
+        setTimeout(() => {
+            // Picking a random number to decide success or fail (for the example, not useful IRL)
+            const rand = Math.random();
+            if (rand < 0.7) {
+                resolve("Here is some fake data.");
+            } else {
+                reject("Fake request failed randomly...");
+            }
+        }, 1000);
+    });
+}
+
+// Then calling the function using that promise:
+fakeRequest("test/pics/1")
+    .then((dat) => {
+        console.log("Request finished!");
+        console.log(`Voila! ...${data}`);
+    })
+    .catch((err) => {
+        console.log(`Oops! ${err}`);
+    })
+
+// =========================================
+// Using previous example from Colt's section 27 example:
+
+// Original (without promises):
+const delayedColorChangeNested = (newColor, delay, doNext) => {
+    // It passes three arguments, the color, the delay, and the callback
+    setTimeout(() => {
+        document.body.style.backgroundColor = newColor;
+        doNext && doNext();
+    }, delay)
+}
+
+delayedColorChangeNested('red', 1000, () => {
+    delayedColorChangeNested('orange', 1000, () => {
+        delayedColorChangeNested('yellow', 1000, () => {
+            delayedColorChangeNested('green', 1000, () => {
+                delayedColorChangeNested('blue', 1000, () => {
+                    delayedColorChangeNested('indigo', 1000, () => {
+                        delayedColorChangeNested('violet', 1000, () => {
+
+                        })
+                    })
+                })
+            })
+        })
+    })
+});
+
+// Revsised (with promises):
+const delayedColorChangePromise = (color, delay) => {
+    // This one only uses two arguments - the color and the delay (no callback needed)
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+            resolve();
+        }, delay)
+    });
+};
+
+delayedColorChangePromise("red", 1000)
+    // After first promise is resolved, then it runs this next one. The cycle continues for each chained then as long as they are resolved.
+    .then(() => delayedColorChangePromise("red", 1000))
+    .then(() => delayedColorChangePromise("orange", 1000))
+    .then(() => delayedColorChangePromise("yellow", 1000))
+    .then(() => delayedColorChangePromise("green", 1000))
+    .then(() => delayedColorChangePromise("blue", 1000))
+    .then(() => delayedColorChangePromise("indigo", 1000))
+    .then(() => delayedColorChangePromise("violet", 1000));
