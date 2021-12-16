@@ -205,7 +205,6 @@ const delayedColorChangePromise = (color, delay) => {
 
 delayedColorChangePromise("red", 1000)
     // After first promise is resolved, then it runs this next one. The cycle continues for each chained then as long as they are resolved.
-    .then(() => delayedColorChangePromise("red", 1000))
     .then(() => delayedColorChangePromise("orange", 1000))
     .then(() => delayedColorChangePromise("yellow", 1000))
     .then(() => delayedColorChangePromise("green", 1000))
