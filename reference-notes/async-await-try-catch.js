@@ -1,4 +1,19 @@
 // =========================================
+// Using the try and catch methods in functions, promises, etc. helps you attempt to run code, then dictact backup code to run in the event of failure/error/rejection.
+
+function yell(msg) {
+    // The "try" attempts the code to see if an error is generated. If not, the code runs.
+    try {
+        console.log(msg.toUpperCase().repeat(3));
+        // The "catch" is run if the "try" generates an error.
+    } catch (e) {
+        // The "e" is a variable placeholder that shows the error that would stop the code from running.
+        console.log(e);
+        console.log("Please pass a string next time!")
+    }
+}
+
+// =========================================
 // The "async" keyword is used before a function to always return a promise. If the functions returns the promise, it is resovled with whatever value it returns. Otherwise, it's rejected as usual.
 
 function hello() {
@@ -67,4 +82,40 @@ rainbow()
 async function printRainbow() {
     await rainbow();
     console.log("End of the rainbow!");
+}
+
+// =========================================
+// Returning to the mock promise example:
+const fakeRequest = (url) => {
+    return new Promise((resolve, reject) => {
+        // Manufactured delay in seconds:
+        const delay = Math.floor(Math.random() * (4500)) + 500;
+        setTimeout(() => {
+            if (delay > 4000) {
+                reject('Connection Timeout :(')
+            } else {
+                resolve(`Here is your fake data from ${url}`)
+            }
+        }, delay)
+    })
+}
+
+async function makeTwoRequests() {
+    // The "fakeRequest" promise/function only stores the result in "data1" if the promise is resolved.
+    let data1 = await fakeRequest("/page1");
+    // If the promise is rejected, then no code after it will run.
+    console.log(data1);
+    console.log("None of this code runs if the promise is rejected.");
+}
+// To solve this issue, use try and catch:
+async function makeTwoRequestsBetter() {
+    try {
+        // This code is attempted:
+        let data1 = await fakeRequest("/page1");
+        console.log(data1);
+    } catch (e) {
+        // But if it throws an error, then runs this code instead. 
+        console.log("The error is caught: ", e)
+        //The "e" parameter can be called any variable, but stores the error data, if you want to use it.
+    }
 }
