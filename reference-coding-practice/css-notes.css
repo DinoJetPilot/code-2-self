@@ -1,0 +1,14 @@
+/* ========================================= */
+/* display vs. visibility */
+/* 
+display can show/hide an element as if it never existed (no longer takes up space on the page)
+
+visibility can also show/hide an element, but the element still takes up space on the page (whether it's block, inline, etc.) */
+
+.neverExisted {
+    display: none
+}
+
+.iAmInvisible {
+    visibility: hidden;
+}
