@@ -40,3 +40,12 @@ fixed - The element remains fixed on the HTML page regardless of how the page is
 .regularFlow {
     position: static;
 }
+
+/* ========================================= */
+/* Text Alignment 
+Text align affects the parent container of an element, having the text follow the assigned value.
+*/
+
+.centerAlllOfTheBodyText {
+    text-align: center;
+}
