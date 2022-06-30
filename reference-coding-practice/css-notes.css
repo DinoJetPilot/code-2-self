@@ -1,4 +1,10 @@
 /* ========================================= */
+/* 
+Font sizes: 100% = 16px = 1em 
+1 rem = root size, not relative to parent like with em
+*/
+
+/* ========================================= */
 /* block vs. inline
 block - elements like <h1>, <p>, <div> that take up the entire width of the screen, pushing following elements after.
 
