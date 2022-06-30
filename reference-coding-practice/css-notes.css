@@ -1,6 +1,19 @@
 /* ========================================= */
-/* display vs. visibility */
-/* 
+/* block vs. inline
+block - elements like <h1>, <p>, <div> that take up the entire width of the screen, pushing following elements after.
+
+inline - elements like <span>, <a> that allows elements to sit on the same "line" on the HTML document.
+
+inline-block - allows elements to sit inline with other elements, but also have the ability to adjust the width of those elements.
+
+*/
+.toDivOrNotToDiv {
+    display: inline-block;
+}
+
+/* ========================================= */
+/* display vs. visibility
+
 display can show/hide an element as if it never existed (no longer takes up space on the page)
 
 visibility can also show/hide an element, but the element still takes up space on the page (whether it's block, inline, etc.) */
@@ -11,4 +24,19 @@ visibility can also show/hide an element, but the element still takes up space o
 
 .iAmInvisible {
     visibility: hidden;
+}
+
+/* ========================================= */
+/* Position 
+static - (default) follow the HTML fule for the element's positioning within the document flow.
+
+relative - positions the element relative to it's default static position, and it's position will not affect other elements position (it could be on top or behind elements).
+
+absolute - (slightly a misnomer) places an element in a position relative to the parent container/element, which usually is the entire HTML page. The element is removed from the natural flow of the document.
+
+fixed - The element remains fixed on the HTML page regardless of how the page is moved/scrolled.
+*/
+
+.regularFlow {
+    position: static;
 }
