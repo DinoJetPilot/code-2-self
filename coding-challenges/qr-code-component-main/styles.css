@@ -38,6 +38,7 @@ body {
 h2 {
     font-size: 1.35rem;
     padding: 2px 15px 0 15px;
+    color: var(--bule-2);
 }
 
 p {
