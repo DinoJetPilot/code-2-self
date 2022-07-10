@@ -6,6 +6,7 @@ A repository for various coding challenges.
 - [Stats preview card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
 - [Order summary component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component) 
 - [Profile card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/profile-card-component)
+- [QR Code Component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component/)
 - WIP [Intro Component w/ Signup Form](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/intro-component-with-signup-form)
 
 ### [CodePen](codepen.io)
