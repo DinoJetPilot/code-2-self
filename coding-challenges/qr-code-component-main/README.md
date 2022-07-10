@@ -15,7 +15,7 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 - Solution URL: [https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component-main/](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component-main/)
 - Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/qr-code-component-main/](https://dinojetpilot.github.io/code-2-self/coding-challenges/qr-code-component-main/)
 
-![image](www)
+![image](https://user-images.githubusercontent.com/92833227/178158697-21e3d993-7d51-42e4-b462-719fa382965c.png)
 
 ## Fixes
 
