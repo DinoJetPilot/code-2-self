@@ -24,4 +24,53 @@ Weights: 400, 700
 body {
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    background-color: var(--gray-1);
+    text-align: center;
+    padding-top: 125px;
+}
+
+@media (max-width: 375px) {
+    body {
+        padding-top: 70px;
+    }
+}
+
+h2 {
+    font-size: 1.35rem;
+    padding: 2px 15px 0 15px;
+}
+
+p {
+    color: var(--blue-1);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+div {
+    margin: 0 auto;
+}
+
+#container {
+    background-color: white;
+    border-radius: 25px;
+    max-width: 330px;
+}
+
+.container-mini-1 {
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.container-mini-2 {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.attribution {
+    padding-top: 5px;
 }
