@@ -12,20 +12,20 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Solution
 
-- Solution URL: [www](www)
-- Live Site URL: [www](www)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component-main/](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component-main/)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/qr-code-component-main/](https://dinojetpilot.github.io/code-2-self/coding-challenges/qr-code-component-main/)
 
-![image](www)
+![image](https://user-images.githubusercontent.com/92833227/178158697-21e3d993-7d51-42e4-b462-719fa382965c.png)
 
 ## Fixes
 
-- [ ] TBD.
+- [ ] Consider revising px dimensions to relative rem or em.
 
 
 ## Links
 
-- [Favicon](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html)
 - [Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Referenced MDN docs for box-shadow properties.
+
 
 ## Author
 
