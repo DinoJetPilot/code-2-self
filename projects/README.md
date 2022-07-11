@@ -9,7 +9,7 @@ A repository for various coding projects and challenges. Challenge links are to 
 - [Stats preview card component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/stats-preview-card-component)
 - [Order summary component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/order-summary-component) 
 - [Profile card component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/profile-card-component)
-- [QR Code Component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/qr-code-component-main/)
+- [QR Code Component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/qr-code-component/)
 <!-- - WIP [3-column preview card component] (https://github.com/DinoJetPilot/code-2-self/blob/main/projects/3-column-preview-card-component/) -->
 <!-- - WIP [Intro Component w/ Signup Form](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/intro-component-with-signup-form) -->
 
