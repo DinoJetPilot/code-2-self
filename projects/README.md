@@ -4,7 +4,7 @@ A repository for various coding projects and challenges. Challenge links are to 
 ### Projects
 - [Simply Chosen](https://dinojetpilot.github.io/SimplyChosen/) - responsive landing page ([Github repo](https://github.com/DinoJetPilot/SimplyChosen/tree/main/))
 
-### [Frontend Mentor](www.frontendmentor.io)
+### Frontend Mentor - [www.frontendmentor.io](www.frontendmentor.io)
 
 - [Stats preview card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
 - [Order summary component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component) 
@@ -13,7 +13,7 @@ A repository for various coding projects and challenges. Challenge links are to 
 - WIP [3-column preview card component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/3-column-preview-card-component/)
 <!-- - WIP [Intro Component w/ Signup Form](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/intro-component-with-signup-form) -->
 
-### [CodePen](codepen.io)
+### CodePen[codepen.io](codepen.io)
 
 - [Tribute page](https://codepen.io/jmillet/pen/GREbZMr)
 - [Form survey](https://codepen.io/jmillet/pen/eYEOdoW) 
