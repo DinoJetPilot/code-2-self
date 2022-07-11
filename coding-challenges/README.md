@@ -2,8 +2,7 @@
 A repository for various coding projects & challenges. Links 
 
 ### Projects
-- [Simply Chosen](https://dinojetpilot.github.io/SimplyChosen/)
-  - [Github repo](https://github.com/DinoJetPilot/SimplyChosen/tree/main/)
+- [Simply Chosen](https://dinojetpilot.github.io/SimplyChosen/) - responsive landing page ([Github repo](https://github.com/DinoJetPilot/SimplyChosen/tree/main/))
 
 ### [Frontend Mentor](www.frontendmentor.io)
 
