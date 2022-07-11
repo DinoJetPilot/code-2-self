@@ -1,5 +1,8 @@
 # Coding Challenges
-A repository for various coding challenges.
+A repository for various coding projects & challenges. Links 
+
+### Projects
+- [Simply Chosen](https://dinojetpilot.github.io/SimplyChosen/) - responsive landing page ([Github repo](https://github.com/DinoJetPilot/SimplyChosen/tree/main/))
 
 ### [Frontend Mentor](www.frontendmentor.io)
 
@@ -7,7 +10,8 @@ A repository for various coding challenges.
 - [Order summary component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component) 
 - [Profile card component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/profile-card-component)
 - [QR Code Component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/qr-code-component/)
-- WIP [Intro Component w/ Signup Form](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/intro-component-with-signup-form)
+- WIP [3-column preview card component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/3-column-preview-card-component/)
+<!-- - WIP [Intro Component w/ Signup Form](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/intro-component-with-signup-form) -->
 
 ### [CodePen](codepen.io)
 
