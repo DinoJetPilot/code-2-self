@@ -15,8 +15,11 @@ A repository for various coding projects and challenges. Challenge links are to 
 
 ### CodePen - [(profile)](https://codepen.io/dinojetpilot)
 
-- [Tribute page](https://codepen.io/jmillet/pen/GREbZMr)
-- [Form survey](https://codepen.io/jmillet/pen/eYEOdoW) 
-- [Product landing page](https://codepen.io/jmillet/pen/JjyPQXQ) 
-- [Technical doc page](https://codepen.io/jmillet/pen/rNzNoWN)
 - [Mock portfolio](https://codepen.io/jmillet/pen/JjydQVz) 
+- [Technical doc page](https://codepen.io/jmillet/pen/rNzNoWN)
+- [Product landing page](https://codepen.io/jmillet/pen/JjyPQXQ) 
+- [Form survey](https://codepen.io/jmillet/pen/eYEOdoW) 
+- [Tribute page](https://codepen.io/jmillet/pen/GREbZMr)
+
+
+
