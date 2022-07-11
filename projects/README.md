@@ -1,5 +1,5 @@
 # Coding Challenges
-A repository for various coding projects & challenges. Links 
+A repository for various coding projects and challenges. Challenge links are to Github directory with a live stie link and picture.
 
 ### Projects
 - [Simply Chosen](https://dinojetpilot.github.io/SimplyChosen/) - responsive landing page ([Github repo](https://github.com/DinoJetPilot/SimplyChosen/tree/main/))
