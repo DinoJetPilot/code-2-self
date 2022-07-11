@@ -1,7 +1,7 @@
 # Code-2-Self 
 Like "note to self" but punnier...
 
-- [Coding Challenges](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges): Repo of various coding challenges and practice.
+- [Coding Challenges](https://dinojetpilot.github.io/coding-challenges): Repo of various coding challenges and practice.
 - [Documents](https://github.com/DinoJetPilot/code-2-self/tree/main/documents): Some free resources and documents about coding, languages, etc.
 - [Reference](https://github.com/DinoJetPilot/code-2-self/tree/main/reference): Reference notes and shorthand/cheatsheet documents.
 - [Web Dev Files](https://github.com/DinoJetPilot/code-2-self/tree/main/web-dev-bootcamp-files): Repo for personal practice for coding learning.
