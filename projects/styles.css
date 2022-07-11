@@ -47,3 +47,9 @@ a {
 .linky {
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    color: var(--dark-1);
+    font-size: 0.75rem;
+}
