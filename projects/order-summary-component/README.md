@@ -14,8 +14,8 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Solution
 
-- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/projects/order-summary-component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/order-summary-component)
-- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/order-summary-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/order-summary-component/)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/projects/order-summary-component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/order-summary-component)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/order-summary-component/](https://dinojetpilot.github.io/code-2-self/projects/order-summary-component/)
 
 ![image](https://user-images.githubusercontent.com/92833227/142673555-9df1ce2d-f162-48a7-8e16-a8cce603cd11.png)
 
