@@ -14,8 +14,8 @@ Navigation: [Process](#Process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Solution
 
-- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/projects/stats-preview-card-component](https://github.com/DinoJetPilot/code-2-self/tree/main/coding-challenges/stats-preview-card-component)
-- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/stats-preview-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/stats-preview-card-component/)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/tree/main/projects/stats-preview-card-component](https://github.com/DinoJetPilot/code-2-self/tree/main/projects/stats-preview-card-component)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/stats-preview-card-component/](https://dinojetpilot.github.io/code-2-self/projects/stats-preview-card-component/)
 
 ![image](https://user-images.githubusercontent.com/92833227/141602785-18fb6bfc-6e0a-4477-ad21-f4226521c666.png)
 
