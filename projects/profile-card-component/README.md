@@ -14,8 +14,8 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Solution
 
-- Solution URL: [https://github.com/DinoJetPilot/code-2-self/edit/main/projects/profile-card-component/](https://github.com/DinoJetPilot/code-2-self/edit/main/coding-challenges/profile-card-component/)
-- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/profile-card-component/](https://dinojetpilot.github.io/code-2-self/coding-challenges/profile-card-component/)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/edit/main/projects/profile-card-component/](https://github.com/DinoJetPilot/code-2-self/edit/main/projects/profile-card-component/)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/profile-card-component/](https://dinojetpilot.github.io/code-2-self/projects/profile-card-component/)
 
 ![image](https://user-images.githubusercontent.com/92833227/145409326-21961640-2b08-45c4-805f-b87ffdc226fd.png)
 
