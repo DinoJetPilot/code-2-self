@@ -13,8 +13,8 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 
 ## Solution
 
-- Solution URL: [https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/3-column-preview-card-component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/3-column-preview-card-component/)
-- Live Site URL: [https://dinojetpilot.github.io/code-2-self/coding-challenges/3-column-preview-card-component](https://dinojetpilot.github.io/code-2-self/coding-challenges/3-column-preview-card-component/)
+- Solution URL: [https://github.com/DinoJetPilot/code-2-self/blob/main/projects/3-column-preview-card-component](https://github.com/DinoJetPilot/code-2-self/blob/main/coding-challenges/3-column-preview-card-component/)
+- Live Site URL: [https://dinojetpilot.github.io/code-2-self/projects/3-column-preview-card-component](https://dinojetpilot.github.io/code-2-self/coding-challenges/3-column-preview-card-component/)
 
 ![Screenshot 2022-07-12 141841](https://user-images.githubusercontent.com/92833227/178576658-6105b97d-7ade-4289-871a-65301fc10a24.png) 
 ![Screenshot 2022-07-12 141933](https://user-images.githubusercontent.com/92833227/178576701-7160409b-e4fa-4d87-a17d-5ed9c21b3826.png)
