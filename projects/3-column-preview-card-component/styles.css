@@ -1,29 +1,119 @@
-/* 
-The designs were created to the following widths:
-
+/* The designs were created to the following widths:
 - Mobile: 375px
-- Desktop: 1440px 
+- Desktop: 1440px */
 
-### Primary
+:root {
+    --orange-1: hsl(31, 77%, 52%);
+    --cyan-1: hsl(184, 100%, 22%);
+    --cyan-2: hsl(179, 100%, 13%);
+    /*paragraphs*/
+    --light-1: hsla(0, 0%, 100%, 0.75);
+    /*background, headings, buttons*/
+    --light-2: hsl(0, 0%, 95%);
+}
 
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
+body {
+    font-size: 15px;
+    background-color: var(--light-2);
+    color: var(--light-1);
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 9rem;
+}
 
-### Neutral
+p {
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+    padding-bottom: 60px;
+}
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
 
-### Body Copy
+button {
+    cursor: pointer;
+    color: var(--orange-1);
+    background-color: var(--light-2);
+    border: 2px solid var(--light-2);
+    padding: 30px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+    transition: all 0.25s linear;
+}
 
-- Font size: 15px
+#learn-2 {
+    color: var(--cyan-1);
+}
 
-### Font
+#learn-3 {
+    color: var(--cyan-2);
+}
 
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
+#learn-2:hover {
+    background-color: #ffffff00;
+    color: var(--light-2);
+}
 
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
-*/
+#learn-3:hover {
+    background-color: #ffffff00;
+    color: var(--light-2);
+}
+
+button:hover {
+    background-color: #ffffff00;
+    color: var(--light-2);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vehicle {
+    display: inline-block;
+    flex: 0 5 auto;
+    width: 175px;
+    padding: 50px;
+}
+
+.vehicle:nth-of-type(1) {
+    background-color: var(--orange-1);
+    border-radius: 7px 0 0 7px;
+}
+
+.vehicle:nth-of-type(2) {
+    background-color: var(--cyan-1);
+}
+
+.vehicle:nth-of-type(3) {
+    background-color: var(--cyan-2);
+    border-radius: 0 7px 7px 0;
+}
+
+/* @media (max-width: 975px) {} */
+
+@media (max-width: 650px) {
+    .container {
+        display: block;
+    }
+
+    .vehicle {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+    }
+
+    .vehicle:nth-of-type(1) {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .vehicle:nth-of-type(3) {
+        border-radius: 0 0 7px 7px;
+    }
+}

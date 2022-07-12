@@ -28,6 +28,8 @@ Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |
 - [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox Reference 1](https://flexbox.malven.co/)
 - [Flexbox Reference 2](https://yoksel.github.io/flex-cheatsheet/#section-flex-direction)
+- [nth-of-type Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
+- [CSS Transitions](https://css-tricks.com/almanac/properties/t/transition/)
 
 ## Author
 
