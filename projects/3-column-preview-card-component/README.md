@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/3column-preview-card-challenge-QxSA7JPLNj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 Navigation: [Process](#process)  |  [Solution](#solution)  |  [Fixes](#fixes)  |  [Links](#links)  |  [Author](#author)
 ##

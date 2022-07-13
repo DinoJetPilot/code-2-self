@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form Notes for HTML</title>
+</head>
+
+<body>
+
+    <!-- For action dictates what loads upon form submission -->
+    <form action="www.url.com">
+
+        <!-- A fieldset groups elements together in a block-level element-->
+        <fieldset>
+            <!-- A legend element is like the title for that fieldset/grouped element -->
+            <legend>Which do you prefer best?</legend>
+
+            <!-- The label helps with assistive technologies/screen readers -->
+            <label>
+                <!-- The input and type are needed -->
+                <!-- Type can be radio buttons, text, password, etc. -->
+                <!-- The value is the data submitted for that element -->
+                <!-- Name helps group the element, like with radio buttons, so only one can be chosen -->
+                <input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor
+
+            </label>
+
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>How are you feeling today?</legend>
+            <!-- The checked value starts with those checkboxes or radio buttons already selected -->
+            <input id="normal" type="checkbox" name="personality" value="normal" checked> <label
+                for="normal">Normal</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">
+                Energetic</label>
+        </fieldset>
+
+        <!-- Required means just that; it's required for submission -->
+        <input type="text" name="somename" placeholder="Your Name" required>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
