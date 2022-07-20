@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--dark-0);
-    background-image: url("joshua-woroniecki-0289jpHHk0o-unsplash-lg.jpg");
+    background-image: url("images/joshua-woroniecki-0289jpHHk0o-unsplash-lg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,10 +25,6 @@ body {
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: wrap;
-}
-
-p {
-    margin: 0;
 }
 
 h1 {
@@ -80,8 +76,19 @@ ul {
 }
 
 .thumbnails {
-    max-width: 100px;
+    max-width: 75px;
+    margin: 2px 5px;
     border: 2px solid var(--mid-1);
+}
+
+.examples {
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: left;
 }
 
 a {
