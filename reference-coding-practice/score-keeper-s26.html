@@ -8,24 +8,27 @@
     <!-- Consider trying Bulma CSS framework -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-    <title>Ping Pong Score Keeper Code-along | Colt's Bootcamp | Section 26</title>
+    <title>Ping Pong Score Keeper Code-along | Colt Steele's WEb Dev Bootcamp | Section 26</title>
 
 </head>
-
 
 <body>
     <section class="section pt-1">
         <div class="columns is-centered">
             <div class="column is-half">
 
-                <div class="card container column is-two-thirds">
-                    <h1 class="is-size-3 is-uppercase has-text-centered">Ping Pong Score Keeper</h1>
-                    <figure class="image"><img class="image is-inline-block"
-                            src="https://images.unsplash.com/photo-1624936188350-883a61a44116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
-                            alt="Ping Pong Image"></figure>
-
+                <!-- Top heading and picture -->
+                <div class="card container">
+                    <div class="container column is-two-thirds">
+                        <h1 class="is-size-2-desktop is-uppercase has-text-centered">Ping Pong Score Keeper</h1>
+                        <figure class="image">
+                            <!-- Image: https://unsplash.com/photos/4P5SOGfnAOY-->
+                            <img class="image is-inline-block" src="ping-pong.jpg" alt="Ping Pong Image">
+                        </figure>
+                    </div>
                 </div>
 
+                <!-- Scores and max score selection -->
                 <div class="card container">
                     <table class="table is-striped mx-auto has-text-centered mb-1">
                         <tr>
@@ -43,8 +46,8 @@
                         </tr>
                     </table>
 
-                    <div class="has-text-centered pb-3">
-                        Directions: Use the buttons below to change each player's score. Set winning score to:
+                    <div class="has-text-centered pb-3 px-2">
+                        Directions: Use the buttons to change each player's score. Set winning score to:
 
                         <select name="playingTo" id="playingTo">
                             <option value="3">3</option>
@@ -53,29 +56,30 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                         </select>
-
-
                     </div>
 
-                    <footer class="card-footer" style="align-items: center;">
-
-                        <button class="card-footer-item button is-success has-text-weight-semibold is-medium"
+                    <!-- Actual buttons for score keeping app -->
+                    <footer class="card-footer is-align-items-center is-size-3-tablet">
+                        <button
+                            class="card-footer-item button is-success has-text-weight-semibold is-medium is-responsive"
                             id="plusP1">+
                             Player
                             1</button>
-                        <button class="card-footer-item button is-warning is-light has-text-weight-bold is-small"
-                            id="minusP1">-
-                            Player 1</button>
+                        <button
+                            class="card-footer-item button is-danger is-light is-small is-outlined is-inverted is-responsive"
+                            id="minusP1">- Player 1</button>
 
-                        <button class="card-footer-item button is-link has-text-weight-semibold is-medium" id="plusP2">+
+                        <button class="card-footer-item button is-link has-text-weight-semibold is-medium is-responsive"
+                            id="plusP2">+
                             Player
                             2</button>
-                        <button class="card-footer-item button is-danger is-light has-text-weight-bold is-small"
+                        <button
+                            class="card-footer-item button is-danger is-light is-small is-inverted is-outlined is-responsive"
                             id="minusP2">-
-                            Player
-                            2</button>
+                            Player 2</button>
 
-                        <button class="card-footer-item button is-warning has-text-weight-bold is-medium"
+                        <button
+                            class="card-footer-item button is-warning has-text-weight-bold is-medium is-outlined is-responsive"
                             id="reset">Reset</button>
 
                     </footer>

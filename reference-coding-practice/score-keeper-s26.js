@@ -140,16 +140,22 @@ plusP2.addEventListener("click", function () {
 // Subtracting points:
 minusP1.addEventListener("click", function () {
     p1--;
-    if (p1 < 0) {
+    if (p1 <= 0) {
         p1 = 0;
+        player1.style.color = "black";
+        player1Score.style.color = "black";
     }
     player1Score.innerText = p1;
+    showLeader();
 });
 
 minusP2.addEventListener("click", function () {
     p2--;
-    if (p2 < 0) {
+    if (p2 <= 0) {
         p2 = 0;
+        player2.style.color = "black";
+        player2Score.style.color = "black";
     }
     player2Score.innerText = p2;
+    showLeader();
 });
